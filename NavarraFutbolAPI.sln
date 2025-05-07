@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavarraFutbolAPI", "NavarraFutbolAPI.csproj", "{E74C6B1D-B2D2-DD15-23EF-D7A3D1990D72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E74C6B1D-B2D2-DD15-23EF-D7A3D1990D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74C6B1D-B2D2-DD15-23EF-D7A3D1990D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74C6B1D-B2D2-DD15-23EF-D7A3D1990D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74C6B1D-B2D2-DD15-23EF-D7A3D1990D72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {397A5A08-C334-473E-BBE7-A19C85F2787F}
+	EndGlobalSection
+EndGlobal

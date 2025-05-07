@@ -1,0 +1,6 @@
+@NavarraFutbolAPI_HostAddress = http://localhost:5271
+
+GET {{NavarraFutbolAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
