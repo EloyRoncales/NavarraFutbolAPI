@@ -51,7 +51,7 @@ app.Run();
 
 void SeedDatabase(AppDbContext context)
 {
-    var jsonPath = Path.Combine(AppContext.BaseDirectory, "Data", "BBDD.json");
+    var jsonPath = Path.Combine(AppContext.BaseDirectory, "data", "BBDD.json");
 
     if (!File.Exists(jsonPath))
     {
