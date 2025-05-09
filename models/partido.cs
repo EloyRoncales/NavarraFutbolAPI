@@ -18,5 +18,8 @@ public class Partido
     public int GolesLocal { get; set; }
     public int GolesVisitante { get; set; }
     public DateTime Fecha { get; set; }
+
+    // Propiedad de navegación para EventoPartido
+    public List<EventoPartido> EventosPartido { get; set; } = new();
 }
 
