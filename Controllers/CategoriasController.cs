@@ -1,32 +1,33 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NavarraFutbolAPI.Data;
 using NavarraFutbolAPI.Models;
 
 namespace NavarraFutbolAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoriaController : ControllerBase
+    public class CategoriasController : ControllerBase
     {
-        private readonly DbContext _context;
+        private readonly AppDbContext _context;
 
-        public CategoriaController(DbContext context)
+        public CategoriasController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Categoria
+        // GET: api/Categorias
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Categoria>>> GetCategorias()
         {
-            return await _context.Set<Categoria>().ToListAsync();
+            return await _context.Categorias.ToListAsync();
         }
 
-        // GET: api/Categoria/5
+        // GET: api/Categorias/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Categoria>> GetCategoria(int id)
         {
-            var categoria = await _context.Set<Categoria>().FindAsync(id);
+            var categoria = await _context.Categorias.FindAsync(id);
 
             if (categoria == null)
             {
@@ -36,17 +37,17 @@ namespace NavarraFutbolAPI.Controllers
             return categoria;
         }
 
-        // POST: api/Categoria
+        // POST: api/Categorias
         [HttpPost]
         public async Task<ActionResult<Categoria>> PostCategoria(Categoria categoria)
         {
-            _context.Set<Categoria>().Add(categoria);
+            _context.Categorias.Add(categoria);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetCategoria), new { id = categoria.Id }, categoria);
         }
 
-        // PUT: api/Categoria/5
+        // PUT: api/Categorias/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCategoria(int id, Categoria categoria)
         {
@@ -61,25 +62,20 @@ namespace NavarraFutbolAPI.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Categoria/5
+        // DELETE: api/Categorias/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategoria(int id)
         {
-            var categoria = await _context.Set<Categoria>().FindAsync(id);
+            var categoria = await _context.Categorias.FindAsync(id);
             if (categoria == null)
             {
                 return NotFound();
             }
 
-            _context.Set<Categoria>().Remove(categoria);
+            _context.Categorias.Remove(categoria);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
-
-
-        
-        
     }
-
 }

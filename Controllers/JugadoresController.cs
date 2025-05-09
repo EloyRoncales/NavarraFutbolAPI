@@ -1,32 +1,33 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NavarraFutbolAPI.Data;
 using NavarraFutbolAPI.Models;
 
 namespace NavarraFutbolAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JugadorController : ControllerBase
+    public class JugadoresController : ControllerBase
     {
-        private readonly DbContext _context;
+        private readonly AppDbContext _context;
 
-        public JugadorController(DbContext context)
+        public JugadoresController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Jugador
+        // GET: api/Jugadores
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Jugador>>> GetJugadores()
         {
-            return await _context.Set<Jugador>().ToListAsync();
+            return await _context.Jugadores.ToListAsync();
         }
 
-        // GET: api/Jugador/5
+        // GET: api/Jugadores/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Jugador>> GetJugador(int id)
         {
-            var jugador = await _context.Set<Jugador>().FindAsync(id);
+            var jugador = await _context.Jugadores.FindAsync(id);
 
             if (jugador == null)
             {
@@ -36,17 +37,17 @@ namespace NavarraFutbolAPI.Controllers
             return jugador;
         }
 
-        // POST: api/Jugador
+        // POST: api/Jugadores
         [HttpPost]
         public async Task<ActionResult<Jugador>> PostJugador(Jugador jugador)
         {
-            _context.Set<Jugador>().Add(jugador);
+            _context.Jugadores.Add(jugador);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetJugador), new { id = jugador.Id }, jugador);
         }
 
-        // PUT: api/Jugador/5
+        // PUT: api/Jugadores/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutJugador(int id, Jugador jugador)
         {
@@ -61,17 +62,17 @@ namespace NavarraFutbolAPI.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Jugador/5
+        // DELETE: api/Jugadores/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteJugador(int id)
         {
-            var jugador = await _context.Set<Jugador>().FindAsync(id);
+            var jugador = await _context.Jugadores.FindAsync(id);
             if (jugador == null)
             {
                 return NotFound();
             }
 
-            _context.Set<Jugador>().Remove(jugador);
+            _context.Jugadores.Remove(jugador);
             await _context.SaveChangesAsync();
 
             return NoContent();

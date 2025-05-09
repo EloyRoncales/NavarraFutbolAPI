@@ -12,7 +12,6 @@ RUN dotnet publish "NavarraFutbolAPI.csproj" -c Release -o /app/publish
 # Imagen final
 FROM base AS final
 WORKDIR /app
-COPY --from=build /app/publish .
-# Copiar el archivo BBDD.json al contenedor
+COPY --from=build /app/publish ./
 COPY data/BBDD.json ./data/BBDD.json
 ENTRYPOINT ["dotnet", "NavarraFutbolAPI.dll"]
