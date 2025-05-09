@@ -89,6 +89,13 @@ namespace NavarraFutbolAPI.Data
                 .WithMany(j => j.EventosPartido) // Relación con la colección en Jugador
                 .HasForeignKey(ep => ep.JugadorId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Equipo>()
+                .HasOne(e => e.Grupo)
+                .WithMany(g => g.Equipos)
+                .HasForeignKey(e => e.GrupoId)
+                .OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }
