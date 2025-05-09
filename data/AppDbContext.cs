@@ -19,17 +19,21 @@ namespace NavarraFutbolAPI.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
 
+            // Relación entre Clasificacion y Grupo
             modelBuilder.Entity<Clasificacion>()
-                .HasOne(c => c.Grupo) // Una Clasificacion tiene un Grupo
-                .WithMany(g => g.Clasificaciones) // Un Grupo tiene muchas Clasificaciones
-                .HasForeignKey(c => c.GrupoId) // La clave foránea es GrupoId
-                .OnDelete(DeleteBehavior.Cascade); // Configurar el comportamiento al eliminar (opcional)
-            // Relación entre Categoria y Grupo
-            modelBuilder.Entity<Categoria>()
-                .HasMany(c => c.Grupos)
-                .WithOne()
+                .HasOne(c => c.Grupo)
+                .WithMany(g => g.Clasificaciones)
+                .HasForeignKey(c => c.GrupoId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            // Relación entre Grupo y Categoria
+            modelBuilder.Entity<Grupo>()
+                .HasOne(g => g.Categoria) // Un Grupo tiene una Categoria
+                .WithMany(c => c.Grupos) // Una Categoria tiene muchos Grupos
+                .HasForeignKey(g => g.CategoriaId) // La clave foránea es CategoriaId
+                .OnDelete(DeleteBehavior.Cascade); // Configurar el comportamiento al eliminar (opcional)
 
             // Relación entre Grupo y sus entidades
             modelBuilder.Entity<Grupo>()
@@ -51,8 +55,6 @@ namespace NavarraFutbolAPI.Data
                 .HasMany(g => g.Partidos)
                 .WithOne()
                 .OnDelete(DeleteBehavior.Cascade);
-
-            base.OnModelCreating(modelBuilder);
         }
     }
 }
