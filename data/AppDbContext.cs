@@ -30,10 +30,17 @@ namespace NavarraFutbolAPI.Data
 
             // Relación entre Grupo y Categoria
             modelBuilder.Entity<Grupo>()
-                .HasOne(g => g.Categoria) // Un Grupo tiene una Categoria
-                .WithMany(c => c.Grupos) // Una Categoria tiene muchos Grupos
-                .HasForeignKey(g => g.CategoriaId) // La clave foránea es CategoriaId
-                .OnDelete(DeleteBehavior.Cascade); // Configurar el comportamiento al eliminar (opcional)
+                .HasOne(g => g.Categoria)
+                .WithMany(c => c.Grupos)
+                .HasForeignKey(g => g.CategoriaId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Relación entre Jugador y Grupo
+            modelBuilder.Entity<Jugador>()
+                .HasOne(j => j.Grupo) // Un Jugador tiene un Grupo
+                .WithMany(g => g.Jugadores) // Un Grupo tiene muchos Jugadores
+                .HasForeignKey(j => j.GrupoId) // La clave foránea es GrupoId
+                .OnDelete(DeleteBehavior.Cascade);
 
             // Relación entre Grupo y sus entidades
             modelBuilder.Entity<Grupo>()
