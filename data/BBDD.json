@@ -47,6 +47,7 @@
             {
               "id": 201,
               "equipoId": 1001,
+              "grupoId": 101,
               "puntos": 25,
               "partidosJugados": 12,
               "partidosGanados": 8,
@@ -58,6 +59,7 @@
             {
               "id": 202,
               "equipoId": 1002,
+              "grupoId": 101,
               "puntos": 22,
               "partidosJugados": 12,
               "partidosGanados": 6,
@@ -70,11 +72,28 @@
           "partidos": [
             {
               "id": 301,
+              "grupoId": 101,
               "localId": 1001,
               "visitanteId": 1002,
               "golesLocal": 2,
               "golesVisitante": 1,
-              "fecha": "2025-04-20T17:00:00"
+              "fecha": "2025-04-20T17:00:00",
+              "eventosPartido": [
+                {
+                  "id": 401,
+                  "partidoId": 301,
+                  "jugadorId": 5001,
+                  "tipo": "Gol",
+                  "minuto": 15
+                },
+                {
+                  "id": 402,
+                  "partidoId": 301,
+                  "jugadorId": 5002,
+                  "tipo": "Gol",
+                  "minuto": 30
+                }
+              ]
             }
           ]
         }
