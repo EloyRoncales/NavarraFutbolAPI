@@ -1,61 +1,80 @@
 using Microsoft.AspNetCore.Mvc;
-using NavarraFutbolAPI.Data;
-
 using Microsoft.EntityFrameworkCore;
 using NavarraFutbolAPI.Models;
 
-namespace NavarraFutbolAPI.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class GruposController : ControllerBase
+namespace NavarraFutbolAPI.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public GruposController(AppDbContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class GrupoController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly DbContext _context;
 
-    [HttpGet]
-    public IActionResult Get() =>
-        Ok(_context.Grupos
-            .Include(g => g.Equipos)
-            .Include(g => g.Jugadores)
-            .Include(g => g.Clasificaciones)
-            .Include(g => g.Partidos)
-            .ToList());
+        public GrupoController(DbContext context)
+        {
+            _context = context;
+        }
 
-    [HttpGet("{id}")]
-    public IActionResult Get(int id)
-    {
-        var grupo = _context.Grupos
-            .Include(g => g.Equipos)
-            .Include(g => g.Jugadores)
-            .Include(g => g.Clasificaciones)
-            .Include(g => g.Partidos)
-            .FirstOrDefault(g => g.Id == id);
+        // GET: api/Grupo
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Grupo>>> GetGrupos()
+        {
+            return await _context.Set<Grupo>().ToListAsync();
+        }
 
-        if (grupo == null) return NotFound();
-        return Ok(grupo);
-    }
+        // GET: api/Grupo/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Grupo>> GetGrupo(int id)
+        {
+            var grupo = await _context.Set<Grupo>().FindAsync(id);
 
-    [HttpPost]
-    public IActionResult Post(Grupo grupo)
-    {
-        _context.Grupos.Add(grupo);
-        _context.SaveChanges();
-        return CreatedAtAction(nameof(Get), new { id = grupo.Id }, grupo);
-    }
+            if (grupo == null)
+            {
+                return NotFound();
+            }
 
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        var grupo = _context.Grupos.Find(id);
-        if (grupo == null) return NotFound();
+            return grupo;
+        }
 
-        _context.Grupos.Remove(grupo);
-        _context.SaveChanges();
-        return NoContent();
+        // POST: api/Grupo
+        [HttpPost]
+        public async Task<ActionResult<Grupo>> PostGrupo(Grupo grupo)
+        {
+            _context.Set<Grupo>().Add(grupo);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetGrupo), new { id = grupo.Id }, grupo);
+        }
+
+        // PUT: api/Grupo/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutGrupo(int id, Grupo grupo)
+        {
+            if (id != grupo.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(grupo).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        // DELETE: api/Grupo/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteGrupo(int id)
+        {
+            var grupo = await _context.Set<Grupo>().FindAsync(id);
+            if (grupo == null)
+            {
+                return NotFound();
+            }
+
+            _context.Set<Grupo>().Remove(grupo);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }

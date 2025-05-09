@@ -1,44 +1,80 @@
 using Microsoft.AspNetCore.Mvc;
-using NavarraFutbolAPI.Data;
+using Microsoft.EntityFrameworkCore;
 using NavarraFutbolAPI.Models;
 
-namespace NavarraFutbolAPI.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class ClasificacionesController : ControllerBase
+namespace NavarraFutbolAPI.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public ClasificacionesController(AppDbContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ClasificacionController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly DbContext _context;
 
-    [HttpGet]
-    public IActionResult Get() => Ok(_context.Clasificaciones.ToList());
+        public ClasificacionController(DbContext context)
+        {
+            _context = context;
+        }
 
-    [HttpGet("{id}")]
-    public IActionResult Get(int id) =>
-        Ok(_context.Clasificaciones.Find(id));
+        // GET: api/Clasificacion
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Clasificacion>>> GetClasificaciones()
+        {
+            return await _context.Set<Clasificacion>().ToListAsync();
+        }
 
-    [HttpPost]
-    public IActionResult Post(Clasificacion clasificacion)
-    {
-        _context.Clasificaciones.Add(clasificacion);
-        _context.SaveChanges();
-        return CreatedAtAction(nameof(Get), new { id = clasificacion.Id }, clasificacion);
-    }
+        // GET: api/Clasificacion/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Clasificacion>> GetClasificacion(int id)
+        {
+            var clasificacion = await _context.Set<Clasificacion>().FindAsync(id);
 
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        var clasificacion = _context.Clasificaciones.Find(id);
-        if (clasificacion == null) return NotFound();
+            if (clasificacion == null)
+            {
+                return NotFound();
+            }
 
-        _context.Clasificaciones.Remove(clasificacion);
-        _context.SaveChanges();
-        return NoContent();
+            return clasificacion;
+        }
+
+        // POST: api/Clasificacion
+        [HttpPost]
+        public async Task<ActionResult<Clasificacion>> PostClasificacion(Clasificacion clasificacion)
+        {
+            _context.Set<Clasificacion>().Add(clasificacion);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetClasificacion), new { id = clasificacion.Id }, clasificacion);
+        }
+
+        // PUT: api/Clasificacion/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutClasificacion(int id, Clasificacion clasificacion)
+        {
+            if (id != clasificacion.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(clasificacion).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        // DELETE: api/Clasificacion/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteClasificacion(int id)
+        {
+            var clasificacion = await _context.Set<Clasificacion>().FindAsync(id);
+            if (clasificacion == null)
+            {
+                return NotFound();
+            }
+
+            _context.Set<Clasificacion>().Remove(clasificacion);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
-

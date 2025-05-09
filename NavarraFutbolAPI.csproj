@@ -16,6 +16,9 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+      <None Update="Data/BBDD.json">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  </None>
   </ItemGroup>
 
 </Project>

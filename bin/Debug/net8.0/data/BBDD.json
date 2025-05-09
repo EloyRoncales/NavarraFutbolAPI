@@ -1,0 +1,190 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Regional Preferente",
+      "grupos": [
+        {
+          "id": 101,
+          "nombre": "Grupo 1",
+          "equipos": [
+            {
+              "id": 1001,
+              "nombre": "CD Mendi",
+              "escudoUrl": "https://example.com/escudos/mendi.png",
+              "estadio": "El Pontarrón"
+            },
+            {
+              "id": 1002,
+              "nombre": "CD Infanzones",
+              "escudoUrl": "https://example.com/escudos/infanzones.png",
+              "estadio": "Gazolaz"
+            }
+          ],
+          "jugadores": [
+            {
+              "id": 5001,
+              "nombre": "Iker García",
+              "edad": 23,
+              "posicion": "Delantero",
+              "equipoId": 1001,
+              "goles": 12,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 5002,
+              "nombre": "Jon Pérez",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 1002,
+              "goles": 5,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            }
+          ],
+          "clasificaciones": [
+            {
+              "id": 201,
+              "equipoId": 1001,
+              "puntos": 25,
+              "partidosJugados": 12,
+              "partidosGanados": 8,
+              "partidosEmpatados": 1,
+              "partidosPerdidos": 3,
+              "golesFavor": 28,
+              "golesContra": 15
+            },
+            {
+              "id": 202,
+              "equipoId": 1002,
+              "puntos": 22,
+              "partidosJugados": 12,
+              "partidosGanados": 6,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 2,
+              "golesFavor": 20,
+              "golesContra": 18
+            }
+          ],
+          "partidos": [
+            {
+              "id": 301,
+              "localId": 1001,
+              "visitanteId": 1002,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-04-20T17:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Autonómica",
+      "grupos": [
+        {
+          "id": 102,
+          "nombre": "Grupo A",
+          "equipos": [
+            {
+              "id": 1003,
+              "nombre": "CD Valle de Egüés",
+              "escudoUrl": "https://example.com/escudos/valle_egues.png",
+              "estadio": "Valle de Egüés"
+            }
+          ],
+          "jugadores": [
+            {
+              "id": 5003,
+              "nombre": "Unai Albisu",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 1003,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            }
+          ],
+          "clasificaciones": [
+            {
+              "id": 203,
+              "equipoId": 1003,
+              "puntos": 30,
+              "partidosJugados": 14,
+              "partidosGanados": 9,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 2,
+              "golesFavor": 25,
+              "golesContra": 15
+            }
+          ],
+          "partidos": [
+            {
+              "id": 302,
+              "localId": 1003,
+              "visitanteId": 1004,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-04-22T18:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Tercera RFEF",
+      "grupos": [
+        {
+          "id": 103,
+          "nombre": "Grupo Único",
+          "equipos": [
+            {
+              "id": 1005,
+              "nombre": "Mutilvera",
+              "escudoUrl": "https://example.com/escudos/mutilvera.png",
+              "estadio": "Mutilnova"
+            }
+          ],
+          "jugadores": [
+            {
+              "id": 5004,
+              "nombre": "Aitor Navarro",
+              "edad": 26,
+              "posicion": "Portero",
+              "equipoId": 1005,
+              "goles": 0,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            }
+          ],
+          "clasificaciones": [
+            {
+              "id": 204,
+              "equipoId": 1005,
+              "puntos": 62,
+              "partidosJugados": 26,
+              "partidosGanados": 19,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 2,
+              "golesFavor": 60,
+              "golesContra": 20
+            }
+          ],
+          "partidos": [
+            {
+              "id": 303,
+              "localId": 1005,
+              "visitanteId": 1006,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-04-25T19:00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

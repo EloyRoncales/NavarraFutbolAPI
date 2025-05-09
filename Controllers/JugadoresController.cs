@@ -1,44 +1,80 @@
 using Microsoft.AspNetCore.Mvc;
-using NavarraFutbolAPI.Data;
+using Microsoft.EntityFrameworkCore;
 using NavarraFutbolAPI.Models;
 
-namespace NavarraFutbolAPI.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class JugadoresController : ControllerBase
+namespace NavarraFutbolAPI.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public JugadoresController(AppDbContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class JugadorController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly DbContext _context;
 
-    [HttpGet]
-    public IActionResult Get() => Ok(_context.Jugadores.ToList());
+        public JugadorController(DbContext context)
+        {
+            _context = context;
+        }
 
-    [HttpGet("{id}")]
-    public IActionResult Get(int id) =>
-        Ok(_context.Jugadores.Find(id));
+        // GET: api/Jugador
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Jugador>>> GetJugadores()
+        {
+            return await _context.Set<Jugador>().ToListAsync();
+        }
 
-    [HttpPost]
-    public IActionResult Post(Jugador jugador)
-    {
-        _context.Jugadores.Add(jugador);
-        _context.SaveChanges();
-        return CreatedAtAction(nameof(Get), new { id = jugador.Id }, jugador);
-    }
+        // GET: api/Jugador/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Jugador>> GetJugador(int id)
+        {
+            var jugador = await _context.Set<Jugador>().FindAsync(id);
 
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        var jugador = _context.Jugadores.Find(id);
-        if (jugador == null) return NotFound();
+            if (jugador == null)
+            {
+                return NotFound();
+            }
 
-        _context.Jugadores.Remove(jugador);
-        _context.SaveChanges();
-        return NoContent();
+            return jugador;
+        }
+
+        // POST: api/Jugador
+        [HttpPost]
+        public async Task<ActionResult<Jugador>> PostJugador(Jugador jugador)
+        {
+            _context.Set<Jugador>().Add(jugador);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetJugador), new { id = jugador.Id }, jugador);
+        }
+
+        // PUT: api/Jugador/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutJugador(int id, Jugador jugador)
+        {
+            if (id != jugador.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(jugador).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        // DELETE: api/Jugador/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteJugador(int id)
+        {
+            var jugador = await _context.Set<Jugador>().FindAsync(id);
+            if (jugador == null)
+            {
+                return NotFound();
+            }
+
+            _context.Set<Jugador>().Remove(jugador);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
-

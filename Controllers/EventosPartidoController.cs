@@ -1,55 +1,80 @@
 using Microsoft.AspNetCore.Mvc;
-using NavarraFutbolAPI.Data;
+using Microsoft.EntityFrameworkCore;
 using NavarraFutbolAPI.Models;
 
-namespace NavarraFutbolAPI.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class EventosPartidoController : ControllerBase
+namespace NavarraFutbolAPI.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public EventosPartidoController(AppDbContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EventoPartidoController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly DbContext _context;
 
-    [HttpGet]
-    public IActionResult Get() =>
-        Ok(_context.EventosPartido.ToList());
+        public EventoPartidoController(DbContext context)
+        {
+            _context = context;
+        }
 
-    [HttpGet("{id}")]
-    public IActionResult Get(int id)
-    {
-        var evento = _context.EventosPartido.Find(id);
-        if (evento == null) return NotFound();
-        return Ok(evento);
-    }
+        // GET: api/EventoPartido
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<EventoPartido>>> GetEventoPartidos()
+        {
+            return await _context.Set<EventoPartido>().ToListAsync();
+        }
 
-    [HttpPost]
-    public IActionResult Post(EventoPartido evento)
-    {
-        if (!_context.Partidos.Any(p => p.Id == evento.PartidoId))
-            return BadRequest($"No existe el partido con ID {evento.PartidoId}");
+        // GET: api/EventoPartido/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<EventoPartido>> GetEventoPartido(int id)
+        {
+            var eventoPartido = await _context.Set<EventoPartido>().FindAsync(id);
 
-        if (!_context.Jugadores.Any(j => j.Id == evento.JugadorId))
-            return BadRequest($"No existe el jugador con ID {evento.JugadorId}");
+            if (eventoPartido == null)
+            {
+                return NotFound();
+            }
 
-        _context.EventosPartido.Add(evento);
-        _context.SaveChanges();
+            return eventoPartido;
+        }
 
-        return CreatedAtAction(nameof(Get), new { id = evento.Id }, evento);
-    }
+        // POST: api/EventoPartido
+        [HttpPost]
+        public async Task<ActionResult<EventoPartido>> PostEventoPartido(EventoPartido eventoPartido)
+        {
+            _context.Set<EventoPartido>().Add(eventoPartido);
+            await _context.SaveChangesAsync();
 
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        var evento = _context.EventosPartido.Find(id);
-        if (evento == null) return NotFound();
+            return CreatedAtAction(nameof(GetEventoPartido), new { id = eventoPartido.Id }, eventoPartido);
+        }
 
-        _context.EventosPartido.Remove(evento);
-        _context.SaveChanges();
-        return NoContent();
+        // PUT: api/EventoPartido/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutEventoPartido(int id, EventoPartido eventoPartido)
+        {
+            if (id != eventoPartido.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(eventoPartido).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        // DELETE: api/EventoPartido/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteEventoPartido(int id)
+        {
+            var eventoPartido = await _context.Set<EventoPartido>().FindAsync(id);
+            if (eventoPartido == null)
+            {
+                return NotFound();
+            }
+
+            _context.Set<EventoPartido>().Remove(eventoPartido);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
