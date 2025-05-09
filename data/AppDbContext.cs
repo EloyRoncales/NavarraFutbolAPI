@@ -16,7 +16,6 @@ namespace NavarraFutbolAPI.Data
         public DbSet<Partido> Partidos { get; set; }
         public DbSet<EventoPartido> EventosPartido { get; set; }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -28,6 +27,13 @@ namespace NavarraFutbolAPI.Data
                 .HasForeignKey(c => c.GrupoId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            // Relación entre Clasificacion y Equipo
+            modelBuilder.Entity<Clasificacion>()
+                .HasOne(c => c.Equipo)
+                .WithMany(e => e.Clasificaciones)
+                .HasForeignKey(c => c.EquipoId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             // Relación entre Grupo y Categoria
             modelBuilder.Entity<Grupo>()
                 .HasOne(g => g.Categoria)
@@ -37,30 +43,51 @@ namespace NavarraFutbolAPI.Data
 
             // Relación entre Jugador y Grupo
             modelBuilder.Entity<Jugador>()
-                .HasOne(j => j.Grupo) // Un Jugador tiene un Grupo
-                .WithMany(g => g.Jugadores) // Un Grupo tiene muchos Jugadores
-                .HasForeignKey(j => j.GrupoId) // La clave foránea es GrupoId
+                .HasOne(j => j.Grupo)
+                .WithMany(g => g.Jugadores)
+                .HasForeignKey(j => j.GrupoId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Relación entre Grupo y sus entidades
-            modelBuilder.Entity<Grupo>()
-                .HasMany(g => g.Equipos)
-                .WithOne()
+            // Relación entre Jugador y Equipo
+            modelBuilder.Entity<Jugador>()
+                .HasOne(j => j.Equipo)
+                .WithMany(e => e.Jugadores)
+                .HasForeignKey(j => j.EquipoId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Grupo>()
-                .HasMany(g => g.Jugadores)
-                .WithOne()
+            // Relación entre Partido y Grupo
+            modelBuilder.Entity<Partido>()
+                .HasOne(p => p.Grupo)
+                .WithMany(g => g.Partidos)
+                .HasForeignKey(p => p.GrupoId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Grupo>()
-                .HasMany(g => g.Clasificaciones)
-                .WithOne()
+            // Relación entre Partido y Equipo (Local)
+            modelBuilder.Entity<Partido>()
+                .HasOne(p => p.Local)
+                .WithMany(e => e.PartidosLocal)
+                .HasForeignKey(p => p.LocalId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Relación entre Partido y Equipo (Visitante)
+            modelBuilder.Entity<Partido>()
+                .HasOne(p => p.Visitante)
+                .WithMany(e => e.PartidosVisitante)
+                .HasForeignKey(p => p.VisitanteId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Relación entre EventoPartido y Partido
+            modelBuilder.Entity<EventoPartido>()
+                .HasOne(ep => ep.Partido)
+                .WithMany(p => p.EventosPartido) // Relación con la colección en Partido
+                .HasForeignKey(ep => ep.PartidoId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Grupo>()
-                .HasMany(g => g.Partidos)
-                .WithOne()
+            // Relación entre EventoPartido y Jugador
+            modelBuilder.Entity<EventoPartido>()
+                .HasOne(ep => ep.Jugador)
+                .WithMany(j => j.EventosPartido) // Relación con la colección en Jugador
+                .HasForeignKey(ep => ep.JugadorId)
                 .OnDelete(DeleteBehavior.Cascade);
         }
     }
