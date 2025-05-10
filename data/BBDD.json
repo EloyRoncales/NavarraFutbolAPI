@@ -10,90 +10,3717 @@
           "equipos": [
             {
               "id": 1001,
-              "nombre": "CD Mendi",
-              "escudoUrl": "https://example.com/escudos/mendi.png",
-              "estadio": "El Pontarrón"
+              "nombre": "Doneztebe F.T.",
+              "escudoUrl": "",
+              "estadio": "Estadio Doneztebe"
             },
             {
               "id": 1002,
-              "nombre": "CD Infanzones",
-              "escudoUrl": "https://example.com/escudos/infanzones.png",
-              "estadio": "Gazolaz"
+              "nombre": "C.F. Gazte Berriak Ansoain",
+              "escudoUrl": "",
+              "estadio": "Campo Gazte"
+            },
+            {
+              "id": 1003,
+              "nombre": "C.D. Soto-Ibarbaso",
+              "escudoUrl": "",
+              "estadio": "Campo Soto"
+            },
+            {
+              "id": 1004,
+              "nombre": "C.F. Beti Casedano",
+              "escudoUrl": "",
+              "estadio": "Campo Beti"
+            },
+            {
+              "id": 1005,
+              "nombre": "C.D. Ardoi 'B'",
+              "escudoUrl": "",
+              "estadio": "El Pinar"
+            },
+            {
+              "id": 1006,
+              "nombre": "C.D. Valle de Egüés 'B'",
+              "escudoUrl": "",
+              "estadio": "Egüés Arena"
+            },
+            {
+              "id": 1007,
+              "nombre": "C.D. Amigo",
+              "escudoUrl": "",
+              "estadio": "Campo Amistad"
+            },
+            {
+              "id": 1008,
+              "nombre": "C.D. Idoya",
+              "escudoUrl": "",
+              "estadio": "San Adrián"
+            },
+            {
+              "id": 1009,
+              "nombre": "C.D. Zirauki",
+              "escudoUrl": "",
+              "estadio": "Zirauki Arena"
+            },
+            {
+              "id": 1010,
+              "nombre": "C.D. Mendi",
+              "escudoUrl": "",
+              "estadio": "El Pontarrón"
+            },
+            {
+              "id": 1011,
+              "nombre": "C.D. Albares",
+              "escudoUrl": "",
+              "estadio": "Campo Albares"
+            },
+            {
+              "id": 1012,
+              "nombre": "C.F. Beriain",
+              "escudoUrl": "",
+              "estadio": "Estadio Beriain"
+            },
+            {
+              "id": 1013,
+              "nombre": "C.D. Universidad de Navarra",
+              "escudoUrl": "",
+              "estadio": "UniStadium"
+            },
+            {
+              "id": 1014,
+              "nombre": "C.D. Huarte 'B'",
+              "escudoUrl": "",
+              "estadio": "Campo Huarte"
+            },
+            {
+              "id": 1015,
+              "nombre": "U.D. Mutilvera 'C'",
+              "escudoUrl": "",
+              "estadio": "Mutilnova 3"
+            },
+            {
+              "id": 1016,
+              "nombre": "F.C. Bidezarra 'B'",
+              "escudoUrl": "",
+              "estadio": "Bidezarra Arena"
             }
           ],
           "jugadores": [
             {
-              "id": 5001,
-              "nombre": "Iker García",
-              "edad": 23,
+              "id": 10000,
+              "nombre": "Oier Ruiz",
+              "edad": 33,
               "posicion": "Delantero",
               "equipoId": 1001,
+              "goles": 3,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10001,
+              "nombre": "Aitor Jiménez",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 1001,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10002,
+              "nombre": "Gorka Pérez",
+              "edad": 26,
+              "posicion": "Delantero",
+              "equipoId": 1001,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10003,
+              "nombre": "Aitor Fernández",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 1002,
+              "goles": 13,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10004,
+              "nombre": "Iker Ruiz",
+              "edad": 29,
+              "posicion": "Portero",
+              "equipoId": 1002,
+              "goles": 11,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10005,
+              "nombre": "Unai Ruiz",
+              "edad": 33,
+              "posicion": "Defensa",
+              "equipoId": 1002,
+              "goles": 6,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10006,
+              "nombre": "Oier Jiménez",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 1003,
+              "goles": 15,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10007,
+              "nombre": "Jon Ruiz",
+              "edad": 34,
+              "posicion": "Defensa",
+              "equipoId": 1003,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10008,
+              "nombre": "Unai Fernández",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 1003,
+              "goles": 5,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10009,
+              "nombre": "Oier Sánchez",
+              "edad": 18,
+              "posicion": "Defensa",
+              "equipoId": 1004,
+              "goles": 9,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10010,
+              "nombre": "Mikel Jiménez",
+              "edad": 34,
+              "posicion": "Delantero",
+              "equipoId": 1004,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10011,
+              "nombre": "Ibai Pérez",
+              "edad": 20,
+              "posicion": "Defensa",
+              "equipoId": 1004,
               "goles": 12,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10012,
+              "nombre": "Iker Jiménez",
+              "edad": 23,
+              "posicion": "Delantero",
+              "equipoId": 1005,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10013,
+              "nombre": "Gorka Martínez",
+              "edad": 30,
+              "posicion": "Portero",
+              "equipoId": 1005,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10014,
+              "nombre": "Asier Sánchez",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 1005,
+              "goles": 9,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10015,
+              "nombre": "Iker López",
+              "edad": 30,
+              "posicion": "Defensa",
+              "equipoId": 1006,
+              "goles": 12,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10016,
+              "nombre": "Mikel Ruiz",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 1006,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10017,
+              "nombre": "Mikel Martínez",
+              "edad": 26,
+              "posicion": "Delantero",
+              "equipoId": 1006,
+              "goles": 14,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10018,
+              "nombre": "Jon Pérez",
+              "edad": 30,
+              "posicion": "Defensa",
+              "equipoId": 1007,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10019,
+              "nombre": "Iker López",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 1007,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10020,
+              "nombre": "Unai García",
+              "edad": 30,
+              "posicion": "Delantero",
+              "equipoId": 1007,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10021,
+              "nombre": "Aitor García",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 1008,
+              "goles": 10,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10022,
+              "nombre": "Aitor Martínez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 1008,
+              "goles": 15,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10023,
+              "nombre": "Iker Sánchez",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 1008,
+              "goles": 2,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10024,
+              "nombre": "Ibai Fernández",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 1009,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10025,
+              "nombre": "Iker Fernández",
+              "edad": 29,
+              "posicion": "Centrocampista",
+              "equipoId": 1009,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10026,
+              "nombre": "Aitor Jiménez",
+              "edad": 34,
+              "posicion": "Portero",
+              "equipoId": 1009,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10027,
+              "nombre": "Jon López",
+              "edad": 34,
+              "posicion": "Delantero",
+              "equipoId": 1010,
+              "goles": 3,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10028,
+              "nombre": "Aitor Martínez",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 1010,
+              "goles": 11,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10029,
+              "nombre": "Asier García",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 1010,
+              "goles": 10,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10030,
+              "nombre": "Mikel Ruiz",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 1011,
+              "goles": 11,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10031,
+              "nombre": "Mikel Ruiz",
+              "edad": 30,
+              "posicion": "Delantero",
+              "equipoId": 1011,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10032,
+              "nombre": "Jon López",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 1011,
+              "goles": 11,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10033,
+              "nombre": "Mikel Sánchez",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 1012,
+              "goles": 14,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10034,
+              "nombre": "Ibai Sánchez",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 1012,
+              "goles": 7,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10035,
+              "nombre": "Ander Fernández",
+              "edad": 32,
+              "posicion": "Portero",
+              "equipoId": 1012,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10036,
+              "nombre": "Unai Fernández",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 1013,
+              "goles": 11,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10037,
+              "nombre": "Ibai Fernández",
+              "edad": 21,
+              "posicion": "Portero",
+              "equipoId": 1013,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10038,
+              "nombre": "Asier García",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 1013,
+              "goles": 13,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10039,
+              "nombre": "Ibai López",
+              "edad": 29,
+              "posicion": "Defensa",
+              "equipoId": 1014,
+              "goles": 11,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10040,
+              "nombre": "Gorka Ruiz",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 1014,
+              "goles": 0,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10041,
+              "nombre": "Aitor Ruiz",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 1014,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10042,
+              "nombre": "Aitor Martínez",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 1015,
+              "goles": 3,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10043,
+              "nombre": "Asier Jiménez",
+              "edad": 22,
+              "posicion": "Delantero",
+              "equipoId": 1015,
+              "goles": 3,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10044,
+              "nombre": "Aitor García",
+              "edad": 30,
+              "posicion": "Defensa",
+              "equipoId": 1015,
+              "goles": 8,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10045,
+              "nombre": "Mikel García",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 1016,
+              "goles": 10,
               "tarjetasAmarillas": 3,
               "tarjetasRojas": 0
             },
             {
-              "id": 5002,
-              "nombre": "Jon Pérez",
-              "edad": 25,
+              "id": 10046,
+              "nombre": "Unai García",
+              "edad": 35,
               "posicion": "Centrocampista",
-              "equipoId": 1002,
-              "goles": 5,
-              "tarjetasAmarillas": 1,
-              "tarjetasRojas": 0
+              "equipoId": 1016,
+              "goles": 2,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10047,
+              "nombre": "Iker Pérez",
+              "edad": 20,
+              "posicion": "Centrocampista",
+              "equipoId": 1016,
+              "goles": 12,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
             }
           ],
           "clasificaciones": [
             {
-              "id": 201,
+              "id": 20000,
               "equipoId": 1001,
               "grupoId": 101,
-              "puntos": 25,
+              "puntos": 11,
+              "partidosJugados": 5,
+              "partidosGanados": 3,
+              "partidosEmpatados": 2,
+              "partidosPerdidos": 0,
+              "golesFavor": 24,
+              "golesContra": 25
+            },
+            {
+              "id": 20001,
+              "equipoId": 1002,
+              "grupoId": 101,
+              "puntos": 30,
+              "partidosJugados": 14,
+              "partidosGanados": 9,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 2,
+              "golesFavor": 18,
+              "golesContra": 25
+            },
+            {
+              "id": 20002,
+              "equipoId": 1003,
+              "grupoId": 101,
+              "puntos": 4,
+              "partidosJugados": 4,
+              "partidosGanados": 0,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 0,
+              "golesFavor": 13,
+              "golesContra": 14
+            },
+            {
+              "id": 20003,
+              "equipoId": 1004,
+              "grupoId": 101,
+              "puntos": 20,
               "partidosJugados": 12,
-              "partidosGanados": 8,
+              "partidosGanados": 6,
+              "partidosEmpatados": 2,
+              "partidosPerdidos": 4,
+              "golesFavor": 29,
+              "golesContra": 21
+            },
+            {
+              "id": 20004,
+              "equipoId": 1005,
+              "grupoId": 101,
+              "puntos": 34,
+              "partidosJugados": 14,
+              "partidosGanados": 10,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 0,
+              "golesFavor": 25,
+              "golesContra": 17
+            },
+            {
+              "id": 20005,
+              "equipoId": 1006,
+              "grupoId": 101,
+              "puntos": 22,
+              "partidosJugados": 15,
+              "partidosGanados": 6,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 5,
+              "golesFavor": 30,
+              "golesContra": 16
+            },
+            {
+              "id": 20006,
+              "equipoId": 1007,
+              "grupoId": 101,
+              "puntos": 11,
+              "partidosJugados": 11,
+              "partidosGanados": 2,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 4,
+              "golesFavor": 18,
+              "golesContra": 24
+            },
+            {
+              "id": 20007,
+              "equipoId": 1008,
+              "grupoId": 101,
+              "puntos": 8,
+              "partidosJugados": 7,
+              "partidosGanados": 1,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 1,
+              "golesFavor": 13,
+              "golesContra": 19
+            },
+            {
+              "id": 20008,
+              "equipoId": 1009,
+              "grupoId": 101,
+              "puntos": 30,
+              "partidosJugados": 16,
+              "partidosGanados": 9,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 4,
+              "golesFavor": 18,
+              "golesContra": 6
+            },
+            {
+              "id": 20009,
+              "equipoId": 1010,
+              "grupoId": 101,
+              "puntos": 16,
+              "partidosJugados": 9,
+              "partidosGanados": 4,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 1,
+              "golesFavor": 17,
+              "golesContra": 8
+            },
+            {
+              "id": 20010,
+              "equipoId": 1011,
+              "grupoId": 101,
+              "puntos": 20,
+              "partidosJugados": 10,
+              "partidosGanados": 6,
+              "partidosEmpatados": 2,
+              "partidosPerdidos": 2,
+              "golesFavor": 27,
+              "golesContra": 10
+            },
+            {
+              "id": 20011,
+              "equipoId": 1012,
+              "grupoId": 101,
+              "puntos": 31,
+              "partidosJugados": 13,
+              "partidosGanados": 10,
               "partidosEmpatados": 1,
-              "partidosPerdidos": 3,
-              "golesFavor": 28,
+              "partidosPerdidos": 2,
+              "golesFavor": 23,
+              "golesContra": 12
+            },
+            {
+              "id": 20012,
+              "equipoId": 1013,
+              "grupoId": 101,
+              "puntos": 33,
+              "partidosJugados": 14,
+              "partidosGanados": 10,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 1,
+              "golesFavor": 17,
               "golesContra": 15
             },
             {
-              "id": 202,
-              "equipoId": 1002,
+              "id": 20013,
+              "equipoId": 1014,
               "grupoId": 101,
-              "puntos": 22,
-              "partidosJugados": 12,
-              "partidosGanados": 6,
+              "puntos": 16,
+              "partidosJugados": 9,
+              "partidosGanados": 4,
               "partidosEmpatados": 4,
+              "partidosPerdidos": 1,
+              "golesFavor": 12,
+              "golesContra": 23
+            },
+            {
+              "id": 20014,
+              "equipoId": 1015,
+              "grupoId": 101,
+              "puntos": 15,
+              "partidosJugados": 9,
+              "partidosGanados": 4,
+              "partidosEmpatados": 3,
               "partidosPerdidos": 2,
-              "golesFavor": 20,
-              "golesContra": 18
+              "golesFavor": 23,
+              "golesContra": 16
+            },
+            {
+              "id": 20015,
+              "equipoId": 1016,
+              "grupoId": 101,
+              "puntos": 32,
+              "partidosJugados": 17,
+              "partidosGanados": 10,
+              "partidosEmpatados": 2,
+              "partidosPerdidos": 5,
+              "golesFavor": 21,
+              "golesContra": 6
             }
           ],
           "partidos": [
             {
-              "id": 301,
+              "id": 30000,
               "grupoId": 101,
               "localId": 1001,
               "visitanteId": 1002,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-04-14T11:42:10"
+            },
+            {
+              "id": 30001,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1003,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-27T11:42:10"
+            },
+            {
+              "id": 30002,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1004,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-03-29T11:42:10"
+            },
+            {
+              "id": 30003,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1005,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-04-21T11:42:10"
+            },
+            {
+              "id": 30004,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1006,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-02-07T11:42:10"
+            },
+            {
+              "id": 30005,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1007,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-05-01T11:42:10"
+            },
+            {
+              "id": 30006,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1008,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-03-29T11:42:10"
+            },
+            {
+              "id": 30007,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1009,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-03-22T11:42:10"
+            },
+            {
+              "id": 30008,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1010,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30009,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1011,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-04-01T11:42:10"
+            },
+            {
+              "id": 30010,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1012,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-19T11:42:10"
+            },
+            {
+              "id": 30011,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1013,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-12T11:42:10"
+            },
+            {
+              "id": 30012,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1014,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-04-10T11:42:10"
+            },
+            {
+              "id": 30013,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1015,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-04-10T11:42:10"
+            },
+            {
+              "id": 30014,
+              "grupoId": 101,
+              "localId": 1001,
+              "visitanteId": 1016,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30015,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1003,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-02-25T11:42:10"
+            },
+            {
+              "id": 30016,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1004,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-03-12T11:42:10"
+            },
+            {
+              "id": 30017,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1005,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-05-02T11:42:10"
+            },
+            {
+              "id": 30018,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1006,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-02-12T11:42:10"
+            },
+            {
+              "id": 30019,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1007,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-02-28T11:42:10"
+            },
+            {
+              "id": 30020,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1008,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-04-28T11:42:10"
+            },
+            {
+              "id": 30021,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1009,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-04T11:42:10"
+            },
+            {
+              "id": 30022,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1010,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-03-02T11:42:10"
+            },
+            {
+              "id": 30023,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1011,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-24T11:42:10"
+            },
+            {
+              "id": 30024,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1012,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-10T11:42:10"
+            },
+            {
+              "id": 30025,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1013,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-05-08T11:42:10"
+            },
+            {
+              "id": 30026,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1014,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-03T11:42:10"
+            },
+            {
+              "id": 30027,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1015,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-02-15T11:42:10"
+            },
+            {
+              "id": 30028,
+              "grupoId": 101,
+              "localId": 1002,
+              "visitanteId": 1016,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-03-28T11:42:10"
+            },
+            {
+              "id": 30029,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1004,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-02-21T11:42:10"
+            },
+            {
+              "id": 30030,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1005,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-05T11:42:10"
+            },
+            {
+              "id": 30031,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1006,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-21T11:42:10"
+            },
+            {
+              "id": 30032,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1007,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30033,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1008,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-07T11:42:10"
+            },
+            {
+              "id": 30034,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1009,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-02-04T11:42:10"
+            },
+            {
+              "id": 30035,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1010,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-03-25T11:42:10"
+            },
+            {
+              "id": 30036,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1011,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-04-17T11:42:10"
+            },
+            {
+              "id": 30037,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1012,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30038,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1013,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-02-24T11:42:10"
+            },
+            {
+              "id": 30039,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1014,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-04-28T11:42:10"
+            },
+            {
+              "id": 30040,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1015,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-05-06T11:42:10"
+            },
+            {
+              "id": 30041,
+              "grupoId": 101,
+              "localId": 1003,
+              "visitanteId": 1016,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-04-06T11:42:10"
+            },
+            {
+              "id": 30042,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1005,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-04-28T11:42:10"
+            },
+            {
+              "id": 30043,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1006,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-05-08T11:42:10"
+            },
+            {
+              "id": 30044,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1007,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-04-01T11:42:10"
+            },
+            {
+              "id": 30045,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1008,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-05-03T11:42:10"
+            },
+            {
+              "id": 30046,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1009,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-01-30T11:42:10"
+            },
+            {
+              "id": 30047,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1010,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-04-06T11:42:10"
+            },
+            {
+              "id": 30048,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1011,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-04-09T11:42:10"
+            },
+            {
+              "id": 30049,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1012,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30050,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1013,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-03-26T11:42:10"
+            },
+            {
+              "id": 30051,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1014,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-03-20T11:42:10"
+            },
+            {
+              "id": 30052,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1015,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-17T11:42:10"
+            },
+            {
+              "id": 30053,
+              "grupoId": 101,
+              "localId": 1004,
+              "visitanteId": 1016,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30054,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1006,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30055,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1007,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-02-19T11:42:10"
+            },
+            {
+              "id": 30056,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1008,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-03-25T11:42:10"
+            },
+            {
+              "id": 30057,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1009,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-05-04T11:42:10"
+            },
+            {
+              "id": 30058,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1010,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-02-22T11:42:10"
+            },
+            {
+              "id": 30059,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1011,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-03-31T11:42:10"
+            },
+            {
+              "id": 30060,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1012,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-03-16T11:42:10"
+            },
+            {
+              "id": 30061,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1013,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-04-17T11:42:10"
+            },
+            {
+              "id": 30062,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1014,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-02-16T11:42:10"
+            },
+            {
+              "id": 30063,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1015,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30064,
+              "grupoId": 101,
+              "localId": 1005,
+              "visitanteId": 1016,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-02-03T11:42:10"
+            },
+            {
+              "id": 30065,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1007,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-16T11:42:10"
+            },
+            {
+              "id": 30066,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1008,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-03-20T11:42:10"
+            },
+            {
+              "id": 30067,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1009,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-03-27T11:42:10"
+            },
+            {
+              "id": 30068,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1010,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-04-08T11:42:10"
+            },
+            {
+              "id": 30069,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1011,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-03-10T11:42:10"
+            },
+            {
+              "id": 30070,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1012,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-18T11:42:10"
+            },
+            {
+              "id": 30071,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1013,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-02-11T11:42:10"
+            },
+            {
+              "id": 30072,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1014,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-04-26T11:42:10"
+            },
+            {
+              "id": 30073,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1015,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-04-30T11:42:10"
+            },
+            {
+              "id": 30074,
+              "grupoId": 101,
+              "localId": 1006,
+              "visitanteId": 1016,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30075,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1008,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-06T11:42:10"
+            },
+            {
+              "id": 30076,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1009,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-04-24T11:42:10"
+            },
+            {
+              "id": 30077,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1010,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-05-04T11:42:10"
+            },
+            {
+              "id": 30078,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1011,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-03-23T11:42:10"
+            },
+            {
+              "id": 30079,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1012,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-04-18T11:42:10"
+            },
+            {
+              "id": 30080,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1013,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-02-16T11:42:10"
+            },
+            {
+              "id": 30081,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1014,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-04-04T11:42:10"
+            },
+            {
+              "id": 30082,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1015,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-04-26T11:42:10"
+            },
+            {
+              "id": 30083,
+              "grupoId": 101,
+              "localId": 1007,
+              "visitanteId": 1016,
               "golesLocal": 2,
               "golesVisitante": 1,
-              "fecha": "2025-04-20T17:00:00",
-              "eventosPartido": [
-                {
-                  "id": 401,
-                  "partidoId": 301,
-                  "jugadorId": 5001,
-                  "tipo": "Gol",
-                  "minuto": 15
-                },
-                {
-                  "id": 402,
-                  "partidoId": 301,
-                  "jugadorId": 5002,
-                  "tipo": "Gol",
-                  "minuto": 30
-                }
-              ]
+              "fecha": "2025-04-03T11:42:10"
+            },
+            {
+              "id": 30084,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1009,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-03-09T11:42:10"
+            },
+            {
+              "id": 30085,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1010,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30086,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1011,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-23T11:42:10"
+            },
+            {
+              "id": 30087,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1012,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-10T11:42:10"
+            },
+            {
+              "id": 30088,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1013,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30089,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1014,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30090,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1015,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30091,
+              "grupoId": 101,
+              "localId": 1008,
+              "visitanteId": 1016,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-02-20T11:42:10"
+            },
+            {
+              "id": 30092,
+              "grupoId": 101,
+              "localId": 1009,
+              "visitanteId": 1010,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-26T11:42:10"
+            },
+            {
+              "id": 30093,
+              "grupoId": 101,
+              "localId": 1009,
+              "visitanteId": 1011,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-02-18T11:42:10"
+            },
+            {
+              "id": 30094,
+              "grupoId": 101,
+              "localId": 1009,
+              "visitanteId": 1012,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-05-06T11:42:10"
+            },
+            {
+              "id": 30095,
+              "grupoId": 101,
+              "localId": 1009,
+              "visitanteId": 1013,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-15T11:42:10"
+            },
+            {
+              "id": 30096,
+              "grupoId": 101,
+              "localId": 1009,
+              "visitanteId": 1014,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-02-11T11:42:10"
+            },
+            {
+              "id": 30097,
+              "grupoId": 101,
+              "localId": 1009,
+              "visitanteId": 1015,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-02-27T11:42:10"
+            },
+            {
+              "id": 30098,
+              "grupoId": 101,
+              "localId": 1009,
+              "visitanteId": 1016,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-05-01T11:42:10"
+            },
+            {
+              "id": 30099,
+              "grupoId": 101,
+              "localId": 1010,
+              "visitanteId": 1011,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-03-11T11:42:10"
+            },
+            {
+              "id": 30100,
+              "grupoId": 101,
+              "localId": 1010,
+              "visitanteId": 1012,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-02-19T11:42:10"
+            },
+            {
+              "id": 30101,
+              "grupoId": 101,
+              "localId": 1010,
+              "visitanteId": 1013,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-28T11:42:10"
+            },
+            {
+              "id": 30102,
+              "grupoId": 101,
+              "localId": 1010,
+              "visitanteId": 1014,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-03-04T11:42:10"
+            },
+            {
+              "id": 30103,
+              "grupoId": 101,
+              "localId": 1010,
+              "visitanteId": 1015,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-03T11:42:10"
+            },
+            {
+              "id": 30104,
+              "grupoId": 101,
+              "localId": 1010,
+              "visitanteId": 1016,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-04-18T11:42:10"
+            },
+            {
+              "id": 30105,
+              "grupoId": 101,
+              "localId": 1011,
+              "visitanteId": 1012,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-03-11T11:42:10"
+            },
+            {
+              "id": 30106,
+              "grupoId": 101,
+              "localId": 1011,
+              "visitanteId": 1013,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-06T11:42:10"
+            },
+            {
+              "id": 30107,
+              "grupoId": 101,
+              "localId": 1011,
+              "visitanteId": 1014,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-05-04T11:42:10"
+            },
+            {
+              "id": 30108,
+              "grupoId": 101,
+              "localId": 1011,
+              "visitanteId": 1015,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-03-12T11:42:10"
+            },
+            {
+              "id": 30109,
+              "grupoId": 101,
+              "localId": 1011,
+              "visitanteId": 1016,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-05-01T11:42:10"
+            },
+            {
+              "id": 30110,
+              "grupoId": 101,
+              "localId": 1012,
+              "visitanteId": 1013,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-07T11:42:10"
+            },
+            {
+              "id": 30111,
+              "grupoId": 101,
+              "localId": 1012,
+              "visitanteId": 1014,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-11T11:42:10"
+            },
+            {
+              "id": 30112,
+              "grupoId": 101,
+              "localId": 1012,
+              "visitanteId": 1015,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-03-30T11:42:10"
+            },
+            {
+              "id": 30113,
+              "grupoId": 101,
+              "localId": 1012,
+              "visitanteId": 1016,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-03-08T11:42:10"
+            },
+            {
+              "id": 30114,
+              "grupoId": 101,
+              "localId": 1013,
+              "visitanteId": 1014,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-05-03T11:42:10"
+            },
+            {
+              "id": 30115,
+              "grupoId": 101,
+              "localId": 1013,
+              "visitanteId": 1015,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-03-29T11:42:10"
+            },
+            {
+              "id": 30116,
+              "grupoId": 101,
+              "localId": 1013,
+              "visitanteId": 1016,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-01-31T11:42:10"
+            },
+            {
+              "id": 30117,
+              "grupoId": 101,
+              "localId": 1014,
+              "visitanteId": 1015,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30118,
+              "grupoId": 101,
+              "localId": 1014,
+              "visitanteId": 1016,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-04-25T11:42:10"
+            },
+            {
+              "id": 30119,
+              "grupoId": 101,
+              "localId": 1015,
+              "visitanteId": 1016,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-23T11:42:10"
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "nombre": "Grupo 2",
+          "equipos": [
+            {
+              "id": 1017,
+              "nombre": "C.D. River Ega",
+              "escudoUrl": "",
+              "estadio": "River Ega Field"
+            },
+            {
+              "id": 1018,
+              "nombre": "C.D. Larrate",
+              "escudoUrl": "",
+              "estadio": "Larrate Stadium"
+            },
+            {
+              "id": 1019,
+              "nombre": "C.D. Zarramonza",
+              "escudoUrl": "",
+              "estadio": "Zarramonza Stadium"
+            },
+            {
+              "id": 1020,
+              "nombre": "C.A. Milagres de Futbol",
+              "escudoUrl": "",
+              "estadio": "Milagres Arena"
+            },
+            {
+              "id": 1021,
+              "nombre": "C.A. Valtierra",
+              "escudoUrl": "",
+              "estadio": "Valtierra Park"
+            },
+            {
+              "id": 1022,
+              "nombre": "C.D. Corellano",
+              "escudoUrl": "",
+              "estadio": "Corellano Field"
+            },
+            {
+              "id": 1023,
+              "nombre": "C.D. San Andres",
+              "escudoUrl": "",
+              "estadio": "San Andres Stadium"
+            },
+            {
+              "id": 1024,
+              "nombre": "C.D. Aluvion",
+              "escudoUrl": "",
+              "estadio": "Aluvion Stadium"
+            },
+            {
+              "id": 1025,
+              "nombre": "C.D. Azkoyen",
+              "escudoUrl": "",
+              "estadio": "Azkoyen Arena"
+            },
+            {
+              "id": 1026,
+              "nombre": "C.D. Arenas",
+              "escudoUrl": "",
+              "estadio": "Arena Stadium"
+            },
+            {
+              "id": 1027,
+              "nombre": "A.D. Cabanillas",
+              "escudoUrl": "",
+              "estadio": "Campo Cabanillas"
+            },
+            {
+              "id": 1028,
+              "nombre": "C.D. Cadreita",
+              "escudoUrl": "",
+              "estadio": "Cadreita Field"
+            },
+            {
+              "id": 1029,
+              "nombre": "C.A. Huracan",
+              "escudoUrl": "",
+              "estadio": "Huracan Stadium"
+            },
+            {
+              "id": 1030,
+              "nombre": "C.D. Falcesino",
+              "escudoUrl": "",
+              "estadio": "Falcesino Stadium"
+            },
+            {
+              "id": 1031,
+              "nombre": "C.D. Murchante",
+              "escudoUrl": "",
+              "estadio": "Murchante Field"
+            },
+            {
+              "id": 1032,
+              "nombre": "C.D. Muskaria",
+              "escudoUrl": "",
+              "estadio": "Muskaria Stadium"
+            }
+          ],
+          "jugadores": [
+            {
+              "id": 10048,
+              "nombre": "Ander Ruiz",
+              "edad": 23,
+              "posicion": "Delantero",
+              "equipoId": 1017,
+              "goles": 8,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10049,
+              "nombre": "Ibai García",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 1017,
+              "goles": 12,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10050,
+              "nombre": "Asier López",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 1017,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10051,
+              "nombre": "Unai Sánchez",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 1018,
+              "goles": 7,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10052,
+              "nombre": "Oier Fernández",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 1018,
+              "goles": 15,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10053,
+              "nombre": "Mikel Fernández",
+              "edad": 35,
+              "posicion": "Defensa",
+              "equipoId": 1018,
+              "goles": 10,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10054,
+              "nombre": "Asier Ruiz",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 1019,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10055,
+              "nombre": "Aitor Jiménez",
+              "edad": 19,
+              "posicion": "Delantero",
+              "equipoId": 1019,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10056,
+              "nombre": "Ander Pérez",
+              "edad": 20,
+              "posicion": "Portero",
+              "equipoId": 1019,
+              "goles": 3,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10057,
+              "nombre": "Unai Ruiz",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 1020,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10058,
+              "nombre": "Mikel García",
+              "edad": 18,
+              "posicion": "Defensa",
+              "equipoId": 1020,
+              "goles": 15,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10059,
+              "nombre": "Ander Sánchez",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 1020,
+              "goles": 14,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10060,
+              "nombre": "Oier López",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 1021,
+              "goles": 13,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10061,
+              "nombre": "Gorka Ruiz",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 1021,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10062,
+              "nombre": "Gorka López",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 1021,
+              "goles": 11,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10063,
+              "nombre": "Mikel Martínez",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 1022,
+              "goles": 13,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10064,
+              "nombre": "Gorka Sánchez",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 1022,
+              "goles": 4,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10065,
+              "nombre": "Jon Fernández",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 1022,
+              "goles": 15,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10066,
+              "nombre": "Jon Ruiz",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 1023,
+              "goles": 10,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10067,
+              "nombre": "Jon Sánchez",
+              "edad": 27,
+              "posicion": "Delantero",
+              "equipoId": 1023,
+              "goles": 9,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10068,
+              "nombre": "Mikel López",
+              "edad": 32,
+              "posicion": "Delantero",
+              "equipoId": 1023,
+              "goles": 7,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10069,
+              "nombre": "Aitor López",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 1024,
+              "goles": 3,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10070,
+              "nombre": "Iker Jiménez",
+              "edad": 21,
+              "posicion": "Portero",
+              "equipoId": 1024,
+              "goles": 11,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10071,
+              "nombre": "Asier Ruiz",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 1024,
+              "goles": 1,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10072,
+              "nombre": "Oier García",
+              "edad": 23,
+              "posicion": "Portero",
+              "equipoId": 1025,
+              "goles": 1,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10073,
+              "nombre": "Unai Ruiz",
+              "edad": 25,
+              "posicion": "Delantero",
+              "equipoId": 1025,
+              "goles": 7,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10074,
+              "nombre": "Iker García",
+              "edad": 34,
+              "posicion": "Portero",
+              "equipoId": 1025,
+              "goles": 1,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10075,
+              "nombre": "Mikel García",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 1026,
+              "goles": 10,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10076,
+              "nombre": "Iker Fernández",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 1026,
+              "goles": 3,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10077,
+              "nombre": "Unai Martínez",
+              "edad": 31,
+              "posicion": "Defensa",
+              "equipoId": 1026,
+              "goles": 2,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10078,
+              "nombre": "Ander Jiménez",
+              "edad": 28,
+              "posicion": "Centrocampista",
+              "equipoId": 1027,
+              "goles": 9,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10079,
+              "nombre": "Ander Martínez",
+              "edad": 28,
+              "posicion": "Defensa",
+              "equipoId": 1027,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10080,
+              "nombre": "Aitor Fernández",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 1027,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10081,
+              "nombre": "Oier López",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 1028,
+              "goles": 6,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10082,
+              "nombre": "Unai García",
+              "edad": 24,
+              "posicion": "Portero",
+              "equipoId": 1028,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10083,
+              "nombre": "Iker Sánchez",
+              "edad": 27,
+              "posicion": "Delantero",
+              "equipoId": 1028,
+              "goles": 7,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10084,
+              "nombre": "Asier Ruiz",
+              "edad": 28,
+              "posicion": "Centrocampista",
+              "equipoId": 1029,
+              "goles": 1,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10085,
+              "nombre": "Unai Martínez",
+              "edad": 29,
+              "posicion": "Defensa",
+              "equipoId": 1029,
+              "goles": 3,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10086,
+              "nombre": "Aitor Martínez",
+              "edad": 22,
+              "posicion": "Centrocampista",
+              "equipoId": 1029,
+              "goles": 4,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10087,
+              "nombre": "Ibai Jiménez",
+              "edad": 20,
+              "posicion": "Centrocampista",
+              "equipoId": 1030,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10088,
+              "nombre": "Mikel Pérez",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 1030,
+              "goles": 1,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10089,
+              "nombre": "Gorka Ruiz",
+              "edad": 20,
+              "posicion": "Defensa",
+              "equipoId": 1030,
+              "goles": 10,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10090,
+              "nombre": "Ander Fernández",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 1031,
+              "goles": 4,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10091,
+              "nombre": "Mikel Ruiz",
+              "edad": 20,
+              "posicion": "Portero",
+              "equipoId": 1031,
+              "goles": 7,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10092,
+              "nombre": "Mikel García",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 1031,
+              "goles": 12,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10093,
+              "nombre": "Asier Fernández",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 1032,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10094,
+              "nombre": "Mikel García",
+              "edad": 24,
+              "posicion": "Portero",
+              "equipoId": 1032,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10095,
+              "nombre": "Iker Jiménez",
+              "edad": 30,
+              "posicion": "Portero",
+              "equipoId": 1032,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            }
+          ],
+          "clasificaciones": [
+            {
+              "id": 20016,
+              "equipoId": 1017,
+              "grupoId": 102,
+              "puntos": 25,
+              "partidosJugados": 11,
+              "partidosGanados": 8,
+              "partidosEmpatados": 1,
+              "partidosPerdidos": 2,
+              "golesFavor": 11,
+              "golesContra": 23
+            },
+            {
+              "id": 20017,
+              "equipoId": 1018,
+              "grupoId": 102,
+              "puntos": 30,
+              "partidosJugados": 12,
+              "partidosGanados": 10,
+              "partidosEmpatados": 0,
+              "partidosPerdidos": 2,
+              "golesFavor": 27,
+              "golesContra": 16
+            },
+            {
+              "id": 20018,
+              "equipoId": 1019,
+              "grupoId": 102,
+              "puntos": 25,
+              "partidosJugados": 14,
+              "partidosGanados": 7,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 3,
+              "golesFavor": 28,
+              "golesContra": 7
+            },
+            {
+              "id": 20019,
+              "equipoId": 1020,
+              "grupoId": 102,
+              "puntos": 16,
+              "partidosJugados": 6,
+              "partidosGanados": 5,
+              "partidosEmpatados": 1,
+              "partidosPerdidos": 0,
+              "golesFavor": 21,
+              "golesContra": 7
+            },
+            {
+              "id": 20020,
+              "equipoId": 1021,
+              "grupoId": 102,
+              "puntos": 18,
+              "partidosJugados": 8,
+              "partidosGanados": 6,
+              "partidosEmpatados": 0,
+              "partidosPerdidos": 2,
+              "golesFavor": 10,
+              "golesContra": 23
+            },
+            {
+              "id": 20021,
+              "equipoId": 1022,
+              "grupoId": 102,
+              "puntos": 20,
+              "partidosJugados": 11,
+              "partidosGanados": 6,
+              "partidosEmpatados": 2,
+              "partidosPerdidos": 3,
+              "golesFavor": 12,
+              "golesContra": 6
+            },
+            {
+              "id": 20022,
+              "equipoId": 1023,
+              "grupoId": 102,
+              "puntos": 24,
+              "partidosJugados": 10,
+              "partidosGanados": 8,
+              "partidosEmpatados": 0,
+              "partidosPerdidos": 2,
+              "golesFavor": 11,
+              "golesContra": 23
+            },
+            {
+              "id": 20023,
+              "equipoId": 1024,
+              "grupoId": 102,
+              "puntos": 15,
+              "partidosJugados": 12,
+              "partidosGanados": 4,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 5,
+              "golesFavor": 23,
+              "golesContra": 16
+            },
+            {
+              "id": 20024,
+              "equipoId": 1025,
+              "grupoId": 102,
+              "puntos": 2,
+              "partidosJugados": 5,
+              "partidosGanados": 0,
+              "partidosEmpatados": 2,
+              "partidosPerdidos": 3,
+              "golesFavor": 24,
+              "golesContra": 12
+            },
+            {
+              "id": 20025,
+              "equipoId": 1026,
+              "grupoId": 102,
+              "puntos": 3,
+              "partidosJugados": 1,
+              "partidosGanados": 1,
+              "partidosEmpatados": 0,
+              "partidosPerdidos": 0,
+              "golesFavor": 14,
+              "golesContra": 7
+            },
+            {
+              "id": 20026,
+              "equipoId": 1027,
+              "grupoId": 102,
+              "puntos": 10,
+              "partidosJugados": 6,
+              "partidosGanados": 3,
+              "partidosEmpatados": 1,
+              "partidosPerdidos": 2,
+              "golesFavor": 17,
+              "golesContra": 21
+            },
+            {
+              "id": 20027,
+              "equipoId": 1028,
+              "grupoId": 102,
+              "puntos": 26,
+              "partidosJugados": 12,
+              "partidosGanados": 7,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 0,
+              "golesFavor": 24,
+              "golesContra": 24
+            },
+            {
+              "id": 20028,
+              "equipoId": 1029,
+              "grupoId": 102,
+              "puntos": 30,
+              "partidosJugados": 14,
+              "partidosGanados": 9,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 2,
+              "golesFavor": 16,
+              "golesContra": 16
+            },
+            {
+              "id": 20029,
+              "equipoId": 1030,
+              "grupoId": 102,
+              "puntos": 30,
+              "partidosJugados": 15,
+              "partidosGanados": 10,
+              "partidosEmpatados": 0,
+              "partidosPerdidos": 5,
+              "golesFavor": 14,
+              "golesContra": 19
+            },
+            {
+              "id": 20030,
+              "equipoId": 1031,
+              "grupoId": 102,
+              "puntos": 32,
+              "partidosJugados": 18,
+              "partidosGanados": 9,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 4,
+              "golesFavor": 16,
+              "golesContra": 13
+            },
+            {
+              "id": 20031,
+              "equipoId": 1032,
+              "grupoId": 102,
+              "puntos": 4,
+              "partidosJugados": 9,
+              "partidosGanados": 0,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 5,
+              "golesFavor": 10,
+              "golesContra": 9
+            }
+          ],
+          "partidos": [
+            {
+              "id": 30120,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1018,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-02-08T11:42:10"
+            },
+            {
+              "id": 30121,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1019,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-04-03T11:42:10"
+            },
+            {
+              "id": 30122,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1020,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-03-20T11:42:10"
+            },
+            {
+              "id": 30123,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1021,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-04-05T11:42:10"
+            },
+            {
+              "id": 30124,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1022,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-03-18T11:42:10"
+            },
+            {
+              "id": 30125,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1023,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-04-21T11:42:10"
+            },
+            {
+              "id": 30126,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1024,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-04-15T11:42:10"
+            },
+            {
+              "id": 30127,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1025,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-01T11:42:10"
+            },
+            {
+              "id": 30128,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1026,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30129,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1027,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-01T11:42:10"
+            },
+            {
+              "id": 30130,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1028,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-04-28T11:42:10"
+            },
+            {
+              "id": 30131,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1029,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-14T11:42:10"
+            },
+            {
+              "id": 30132,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1030,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-03-03T11:42:10"
+            },
+            {
+              "id": 30133,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1031,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-04-24T11:42:10"
+            },
+            {
+              "id": 30134,
+              "grupoId": 102,
+              "localId": 1017,
+              "visitanteId": 1032,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30135,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1019,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-21T11:42:10"
+            },
+            {
+              "id": 30136,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1020,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-04-24T11:42:10"
+            },
+            {
+              "id": 30137,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1021,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30138,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1022,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-03-07T11:42:10"
+            },
+            {
+              "id": 30139,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1023,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-02-28T11:42:10"
+            },
+            {
+              "id": 30140,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1024,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-03-28T11:42:10"
+            },
+            {
+              "id": 30141,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1025,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-04-25T11:42:10"
+            },
+            {
+              "id": 30142,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1026,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-11T11:42:10"
+            },
+            {
+              "id": 30143,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1027,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-03-14T11:42:10"
+            },
+            {
+              "id": 30144,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1028,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30145,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1029,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-02-09T11:42:10"
+            },
+            {
+              "id": 30146,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1030,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-05-07T11:42:10"
+            },
+            {
+              "id": 30147,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1031,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-03-27T11:42:10"
+            },
+            {
+              "id": 30148,
+              "grupoId": 102,
+              "localId": 1018,
+              "visitanteId": 1032,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-04-21T11:42:10"
+            },
+            {
+              "id": 30149,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1020,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30150,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1021,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-05-05T11:42:10"
+            },
+            {
+              "id": 30151,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1022,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30152,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1023,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-02-22T11:42:10"
+            },
+            {
+              "id": 30153,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1024,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-05-10T11:42:10"
+            },
+            {
+              "id": 30154,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1025,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30155,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1026,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-02-20T11:42:10"
+            },
+            {
+              "id": 30156,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1027,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-03-05T11:42:10"
+            },
+            {
+              "id": 30157,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1028,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-16T11:42:10"
+            },
+            {
+              "id": 30158,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1029,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-04-01T11:42:10"
+            },
+            {
+              "id": 30159,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1030,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-05-07T11:42:10"
+            },
+            {
+              "id": 30160,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1031,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-11T11:42:10"
+            },
+            {
+              "id": 30161,
+              "grupoId": 102,
+              "localId": 1019,
+              "visitanteId": 1032,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30162,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1021,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-02-28T11:42:10"
+            },
+            {
+              "id": 30163,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1022,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-04T11:42:10"
+            },
+            {
+              "id": 30164,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1023,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-02-27T11:42:10"
+            },
+            {
+              "id": 30165,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1024,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-02-15T11:42:10"
+            },
+            {
+              "id": 30166,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1025,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-02-15T11:42:10"
+            },
+            {
+              "id": 30167,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1026,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-04-27T11:42:10"
+            },
+            {
+              "id": 30168,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1027,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30169,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1028,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-03-01T11:42:10"
+            },
+            {
+              "id": 30170,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1029,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-27T11:42:10"
+            },
+            {
+              "id": 30171,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1030,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-04-05T11:42:10"
+            },
+            {
+              "id": 30172,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1031,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-15T11:42:10"
+            },
+            {
+              "id": 30173,
+              "grupoId": 102,
+              "localId": 1020,
+              "visitanteId": 1032,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-02-18T11:42:10"
+            },
+            {
+              "id": 30174,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1022,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-03-19T11:42:10"
+            },
+            {
+              "id": 30175,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1023,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-04-14T11:42:10"
+            },
+            {
+              "id": 30176,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1024,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-27T11:42:10"
+            },
+            {
+              "id": 30177,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1025,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30178,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1026,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-04-06T11:42:10"
+            },
+            {
+              "id": 30179,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1027,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-07T11:42:10"
+            },
+            {
+              "id": 30180,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1028,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-04-19T11:42:10"
+            },
+            {
+              "id": 30181,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1029,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-03-09T11:42:10"
+            },
+            {
+              "id": 30182,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1030,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-11T11:42:10"
+            },
+            {
+              "id": 30183,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1031,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-02-25T11:42:10"
+            },
+            {
+              "id": 30184,
+              "grupoId": 102,
+              "localId": 1021,
+              "visitanteId": 1032,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-03-09T11:42:10"
+            },
+            {
+              "id": 30185,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1023,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-17T11:42:10"
+            },
+            {
+              "id": 30186,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1024,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-04-11T11:42:10"
+            },
+            {
+              "id": 30187,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1025,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-02-25T11:42:10"
+            },
+            {
+              "id": 30188,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1026,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-03T11:42:10"
+            },
+            {
+              "id": 30189,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1027,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-02-18T11:42:10"
+            },
+            {
+              "id": 30190,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1028,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-24T11:42:10"
+            },
+            {
+              "id": 30191,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1029,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-03-03T11:42:10"
+            },
+            {
+              "id": 30192,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1030,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-03-24T11:42:10"
+            },
+            {
+              "id": 30193,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1031,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-02-14T11:42:10"
+            },
+            {
+              "id": 30194,
+              "grupoId": 102,
+              "localId": 1022,
+              "visitanteId": 1032,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30195,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1024,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30196,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1025,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-04-14T11:42:10"
+            },
+            {
+              "id": 30197,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1026,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-04-15T11:42:10"
+            },
+            {
+              "id": 30198,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1027,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-18T11:42:10"
+            },
+            {
+              "id": 30199,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1028,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-02-19T11:42:10"
+            },
+            {
+              "id": 30200,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1029,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-03-10T11:42:10"
+            },
+            {
+              "id": 30201,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1030,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-02-10T11:42:10"
+            },
+            {
+              "id": 30202,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1031,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-03-09T11:42:10"
+            },
+            {
+              "id": 30203,
+              "grupoId": 102,
+              "localId": 1023,
+              "visitanteId": 1032,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-04-21T11:42:10"
+            },
+            {
+              "id": 30204,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1025,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-03-21T11:42:10"
+            },
+            {
+              "id": 30205,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1026,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-03-13T11:42:10"
+            },
+            {
+              "id": 30206,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1027,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-04-13T11:42:10"
+            },
+            {
+              "id": 30207,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1028,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-02-12T11:42:10"
+            },
+            {
+              "id": 30208,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1029,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-02-17T11:42:10"
+            },
+            {
+              "id": 30209,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1030,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-03-29T11:42:10"
+            },
+            {
+              "id": 30210,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1031,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-03-10T11:42:10"
+            },
+            {
+              "id": 30211,
+              "grupoId": 102,
+              "localId": 1024,
+              "visitanteId": 1032,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-04-06T11:42:10"
+            },
+            {
+              "id": 30212,
+              "grupoId": 102,
+              "localId": 1025,
+              "visitanteId": 1026,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-03-25T11:42:10"
+            },
+            {
+              "id": 30213,
+              "grupoId": 102,
+              "localId": 1025,
+              "visitanteId": 1027,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-04-28T11:42:10"
+            },
+            {
+              "id": 30214,
+              "grupoId": 102,
+              "localId": 1025,
+              "visitanteId": 1028,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-02-10T11:42:10"
+            },
+            {
+              "id": 30215,
+              "grupoId": 102,
+              "localId": 1025,
+              "visitanteId": 1029,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30216,
+              "grupoId": 102,
+              "localId": 1025,
+              "visitanteId": 1030,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-23T11:42:10"
+            },
+            {
+              "id": 30217,
+              "grupoId": 102,
+              "localId": 1025,
+              "visitanteId": 1031,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-04-16T11:42:10"
+            },
+            {
+              "id": 30218,
+              "grupoId": 102,
+              "localId": 1025,
+              "visitanteId": 1032,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30219,
+              "grupoId": 102,
+              "localId": 1026,
+              "visitanteId": 1027,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-04-08T11:42:10"
+            },
+            {
+              "id": 30220,
+              "grupoId": 102,
+              "localId": 1026,
+              "visitanteId": 1028,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30221,
+              "grupoId": 102,
+              "localId": 1026,
+              "visitanteId": 1029,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-14T11:42:10"
+            },
+            {
+              "id": 30222,
+              "grupoId": 102,
+              "localId": 1026,
+              "visitanteId": 1030,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-02-14T11:42:10"
+            },
+            {
+              "id": 30223,
+              "grupoId": 102,
+              "localId": 1026,
+              "visitanteId": 1031,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-03T11:42:10"
+            },
+            {
+              "id": 30224,
+              "grupoId": 102,
+              "localId": 1026,
+              "visitanteId": 1032,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-02-07T11:42:10"
+            },
+            {
+              "id": 30225,
+              "grupoId": 102,
+              "localId": 1027,
+              "visitanteId": 1028,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-04-25T11:42:10"
+            },
+            {
+              "id": 30226,
+              "grupoId": 102,
+              "localId": 1027,
+              "visitanteId": 1029,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-05-02T11:42:10"
+            },
+            {
+              "id": 30227,
+              "grupoId": 102,
+              "localId": 1027,
+              "visitanteId": 1030,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-04-01T11:42:10"
+            },
+            {
+              "id": 30228,
+              "grupoId": 102,
+              "localId": 1027,
+              "visitanteId": 1031,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-03-13T11:42:10"
+            },
+            {
+              "id": 30229,
+              "grupoId": 102,
+              "localId": 1027,
+              "visitanteId": 1032,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-02-14T11:42:10"
+            },
+            {
+              "id": 30230,
+              "grupoId": 102,
+              "localId": 1028,
+              "visitanteId": 1029,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-07T11:42:10"
+            },
+            {
+              "id": 30231,
+              "grupoId": 102,
+              "localId": 1028,
+              "visitanteId": 1030,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-13T11:42:10"
+            },
+            {
+              "id": 30232,
+              "grupoId": 102,
+              "localId": 1028,
+              "visitanteId": 1031,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-05-01T11:42:10"
+            },
+            {
+              "id": 30233,
+              "grupoId": 102,
+              "localId": 1028,
+              "visitanteId": 1032,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-04-29T11:42:10"
+            },
+            {
+              "id": 30234,
+              "grupoId": 102,
+              "localId": 1029,
+              "visitanteId": 1030,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-02-28T11:42:10"
+            },
+            {
+              "id": 30235,
+              "grupoId": 102,
+              "localId": 1029,
+              "visitanteId": 1031,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30236,
+              "grupoId": 102,
+              "localId": 1029,
+              "visitanteId": 1032,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-10T11:42:10"
+            },
+            {
+              "id": 30237,
+              "grupoId": 102,
+              "localId": 1030,
+              "visitanteId": 1031,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-02-23T11:42:10"
+            },
+            {
+              "id": 30238,
+              "grupoId": 102,
+              "localId": 1030,
+              "visitanteId": 1032,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-02-08T11:42:10"
+            },
+            {
+              "id": 30239,
+              "grupoId": 102,
+              "localId": 1031,
+              "visitanteId": 1032,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-01-31T11:42:10"
             }
           ]
         }
@@ -104,102 +3731,2255 @@
       "nombre": "Autonómica",
       "grupos": [
         {
-          "id": 102,
-          "nombre": "Grupo A",
-          "equipos": [
-            {
-              "id": 1003,
-              "nombre": "CD Valle de Egüés",
-              "escudoUrl": "https://example.com/escudos/valle_egues.png",
-              "estadio": "Valle de Egüés"
-            }
-          ],
-          "jugadores": [
-            {
-              "id": 5003,
-              "nombre": "Unai Albisu",
-              "edad": 24,
-              "posicion": "Delantero",
-              "equipoId": 1003,
-              "goles": 8,
-              "tarjetasAmarillas": 2,
-              "tarjetasRojas": 0
-            }
-          ],
-          "clasificaciones": [
-            {
-              "id": 203,
-              "equipoId": 1003,
-              "puntos": 30,
-              "partidosJugados": 14,
-              "partidosGanados": 9,
-              "partidosEmpatados": 3,
-              "partidosPerdidos": 2,
-              "golesFavor": 25,
-              "golesContra": 15
-            }
-          ],
-          "partidos": [
-            {
-              "id": 302,
-              "localId": 1003,
-              "visitanteId": 1004,
-              "golesLocal": 3,
-              "golesVisitante": 1,
-              "fecha": "2025-04-22T18:00:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "nombre": "Tercera RFEF",
-      "grupos": [
-        {
           "id": 103,
           "nombre": "Grupo Único",
           "equipos": [
             {
-              "id": 1005,
-              "nombre": "Mutilvera",
-              "escudoUrl": "https://example.com/escudos/mutilvera.png",
-              "estadio": "Mutilnova"
+              "id": 2001,
+              "nombre": "Burladés B",
+              "escudoUrl": "",
+              "estadio": "Campo Burladés"
+            },
+            {
+              "id": 2002,
+              "nombre": "Alesves",
+              "escudoUrl": "",
+              "estadio": "Campo Alesves"
+            },
+            {
+              "id": 2003,
+              "nombre": "Iruna",
+              "escudoUrl": "",
+              "estadio": "Campo Iruna"
+            },
+            {
+              "id": 2004,
+              "nombre": "San Miguel",
+              "escudoUrl": "",
+              "estadio": "Campo San Miguel"
+            },
+            {
+              "id": 2005,
+              "nombre": "Erriberri",
+              "escudoUrl": "",
+              "estadio": "Erriberri Arena"
+            },
+            {
+              "id": 2006,
+              "nombre": "Mutilvera B",
+              "escudoUrl": "",
+              "estadio": "Mutilnova 2"
+            },
+            {
+              "id": 2007,
+              "nombre": "Ilumberri",
+              "escudoUrl": "",
+              "estadio": "Ilumberri Stadium"
+            },
+            {
+              "id": 2008,
+              "nombre": "Lerines",
+              "escudoUrl": "",
+              "estadio": "Campo Lerines"
+            },
+            {
+              "id": 2009,
+              "nombre": "Penya Azagresa",
+              "escudoUrl": "",
+              "estadio": "Azagresa Stadium"
+            },
+            {
+              "id": 2010,
+              "nombre": "Ondalan",
+              "escudoUrl": "",
+              "estadio": "Ondalan Field"
+            },
+            {
+              "id": 2011,
+              "nombre": "Baztan",
+              "escudoUrl": "",
+              "estadio": "Campo Baztan"
+            },
+            {
+              "id": 2012,
+              "nombre": "Injerto",
+              "escudoUrl": "",
+              "estadio": "Campo Injerto"
+            },
+            {
+              "id": 2013,
+              "nombre": "San Adrian",
+              "escudoUrl": "",
+              "estadio": "San Adrian Stadium"
+            },
+            {
+              "id": 2014,
+              "nombre": "Lagunak",
+              "escudoUrl": "",
+              "estadio": "Campo Lagunak"
+            },
+            {
+              "id": 2015,
+              "nombre": "Oberena",
+              "escudoUrl": "",
+              "estadio": "Oberena Field"
+            },
+            {
+              "id": 2016,
+              "nombre": "Lourdes",
+              "escudoUrl": "",
+              "estadio": "Campo Lourdes"
+            },
+            {
+              "id": 2017,
+              "nombre": "Aoiz",
+              "escudoUrl": "",
+              "estadio": "Campo Aoiz"
+            },
+            {
+              "id": 2018,
+              "nombre": "Avance Ezcabarte",
+              "escudoUrl": "",
+              "estadio": "Avance Stadium"
             }
           ],
           "jugadores": [
             {
-              "id": 5004,
-              "nombre": "Aitor Navarro",
-              "edad": 26,
+              "id": 10096,
+              "nombre": "Jon Sánchez",
+              "edad": 34,
+              "posicion": "Defensa",
+              "equipoId": 2001,
+              "goles": 5,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10097,
+              "nombre": "Asier Fernández",
+              "edad": 29,
+              "posicion": "Centrocampista",
+              "equipoId": 2001,
+              "goles": 3,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10098,
+              "nombre": "Unai Fernández",
+              "edad": 32,
+              "posicion": "Centrocampista",
+              "equipoId": 2001,
+              "goles": 0,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10099,
+              "nombre": "Unai Martínez",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 2002,
+              "goles": 13,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10100,
+              "nombre": "Ander García",
+              "edad": 33,
               "posicion": "Portero",
-              "equipoId": 1005,
+              "equipoId": 2002,
+              "goles": 0,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10101,
+              "nombre": "Unai Jiménez",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 2002,
+              "goles": 14,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10102,
+              "nombre": "Aitor Fernández",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 2003,
+              "goles": 10,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10103,
+              "nombre": "Unai García",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 2003,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10104,
+              "nombre": "Oier Pérez",
+              "edad": 29,
+              "posicion": "Defensa",
+              "equipoId": 2003,
+              "goles": 6,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10105,
+              "nombre": "Gorka García",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 2004,
+              "goles": 15,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10106,
+              "nombre": "Gorka García",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 2004,
+              "goles": 11,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10107,
+              "nombre": "Ander Jiménez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 2004,
+              "goles": 0,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10108,
+              "nombre": "Oier López",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 2005,
+              "goles": 14,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10109,
+              "nombre": "Unai Pérez",
+              "edad": 35,
+              "posicion": "Defensa",
+              "equipoId": 2005,
+              "goles": 13,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10110,
+              "nombre": "Jon Martínez",
+              "edad": 18,
+              "posicion": "Portero",
+              "equipoId": 2005,
+              "goles": 10,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10111,
+              "nombre": "Asier García",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 2006,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10112,
+              "nombre": "Asier Pérez",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 2006,
+              "goles": 9,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10113,
+              "nombre": "Jon Jiménez",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 2006,
+              "goles": 4,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10114,
+              "nombre": "Oier Jiménez",
+              "edad": 23,
+              "posicion": "Portero",
+              "equipoId": 2007,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10115,
+              "nombre": "Ander Martínez",
+              "edad": 29,
+              "posicion": "Defensa",
+              "equipoId": 2007,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10116,
+              "nombre": "Oier Jiménez",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 2007,
+              "goles": 6,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10117,
+              "nombre": "Gorka Fernández",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 2008,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10118,
+              "nombre": "Jon Sánchez",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 2008,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10119,
+              "nombre": "Mikel Martínez",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 2008,
+              "goles": 1,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10120,
+              "nombre": "Oier Sánchez",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 2009,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10121,
+              "nombre": "Mikel Ruiz",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 2009,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10122,
+              "nombre": "Oier Sánchez",
+              "edad": 26,
+              "posicion": "Delantero",
+              "equipoId": 2009,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10123,
+              "nombre": "Ibai Fernández",
+              "edad": 23,
+              "posicion": "Delantero",
+              "equipoId": 2010,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10124,
+              "nombre": "Aitor López",
+              "edad": 33,
+              "posicion": "Centrocampista",
+              "equipoId": 2010,
+              "goles": 15,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10125,
+              "nombre": "Ander García",
+              "edad": 21,
+              "posicion": "Delantero",
+              "equipoId": 2010,
               "goles": 0,
               "tarjetasAmarillas": 1,
               "tarjetasRojas": 0
+            },
+            {
+              "id": 10126,
+              "nombre": "Oier Martínez",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 2011,
+              "goles": 11,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10127,
+              "nombre": "Gorka García",
+              "edad": 33,
+              "posicion": "Defensa",
+              "equipoId": 2011,
+              "goles": 14,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10128,
+              "nombre": "Oier Pérez",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 2011,
+              "goles": 7,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10129,
+              "nombre": "Mikel Jiménez",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 2012,
+              "goles": 11,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10130,
+              "nombre": "Gorka García",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 2012,
+              "goles": 15,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10131,
+              "nombre": "Oier Ruiz",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 2012,
+              "goles": 11,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10132,
+              "nombre": "Unai Pérez",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 2013,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10133,
+              "nombre": "Unai Sánchez",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 2013,
+              "goles": 11,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10134,
+              "nombre": "Aitor López",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 2013,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10135,
+              "nombre": "Oier García",
+              "edad": 30,
+              "posicion": "Defensa",
+              "equipoId": 2014,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10136,
+              "nombre": "Asier López",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 2014,
+              "goles": 6,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10137,
+              "nombre": "Asier Martínez",
+              "edad": 35,
+              "posicion": "Centrocampista",
+              "equipoId": 2014,
+              "goles": 5,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10138,
+              "nombre": "Asier Pérez",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 2015,
+              "goles": 7,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10139,
+              "nombre": "Oier García",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 2015,
+              "goles": 10,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10140,
+              "nombre": "Aitor Jiménez",
+              "edad": 23,
+              "posicion": "Portero",
+              "equipoId": 2015,
+              "goles": 1,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10141,
+              "nombre": "Mikel Sánchez",
+              "edad": 35,
+              "posicion": "Centrocampista",
+              "equipoId": 2016,
+              "goles": 5,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10142,
+              "nombre": "Mikel Jiménez",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 2016,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10143,
+              "nombre": "Ibai Martínez",
+              "edad": 28,
+              "posicion": "Centrocampista",
+              "equipoId": 2016,
+              "goles": 10,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10144,
+              "nombre": "Unai Sánchez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 2017,
+              "goles": 6,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10145,
+              "nombre": "Aitor Fernández",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 2017,
+              "goles": 7,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 10146,
+              "nombre": "Asier Fernández",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 2017,
+              "goles": 3,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10147,
+              "nombre": "Jon Sánchez",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 2018,
+              "goles": 7,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 10148,
+              "nombre": "Ibai Ruiz",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 2018,
+              "goles": 6,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 10149,
+              "nombre": "Oier Pérez",
+              "edad": 30,
+              "posicion": "Centrocampista",
+              "equipoId": 2018,
+              "goles": 10,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
             }
           ],
           "clasificaciones": [
             {
-              "id": 204,
-              "equipoId": 1005,
-              "puntos": 62,
-              "partidosJugados": 26,
-              "partidosGanados": 19,
+              "id": 20032,
+              "equipoId": 2001,
+              "grupoId": 103,
+              "puntos": 15,
+              "partidosJugados": 12,
+              "partidosGanados": 4,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 5,
+              "golesFavor": 22,
+              "golesContra": 17
+            },
+            {
+              "id": 20033,
+              "equipoId": 2002,
+              "grupoId": 103,
+              "puntos": 31,
+              "partidosJugados": 12,
+              "partidosGanados": 10,
+              "partidosEmpatados": 1,
+              "partidosPerdidos": 1,
+              "golesFavor": 18,
+              "golesContra": 17
+            },
+            {
+              "id": 20034,
+              "equipoId": 2003,
+              "grupoId": 103,
+              "puntos": 30,
+              "partidosJugados": 17,
+              "partidosGanados": 9,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 5,
+              "golesFavor": 28,
+              "golesContra": 16
+            },
+            {
+              "id": 20035,
+              "equipoId": 2004,
+              "grupoId": 103,
+              "puntos": 16,
+              "partidosJugados": 13,
+              "partidosGanados": 4,
+              "partidosEmpatados": 4,
+              "partidosPerdidos": 5,
+              "golesFavor": 22,
+              "golesContra": 12
+            },
+            {
+              "id": 20036,
+              "equipoId": 2005,
+              "grupoId": 103,
+              "puntos": 23,
+              "partidosJugados": 16,
+              "partidosGanados": 6,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 5,
+              "golesFavor": 18,
+              "golesContra": 13
+            },
+            {
+              "id": 20037,
+              "equipoId": 2006,
+              "grupoId": 103,
+              "puntos": 6,
+              "partidosJugados": 4,
+              "partidosGanados": 1,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 0,
+              "golesFavor": 29,
+              "golesContra": 21
+            },
+            {
+              "id": 20038,
+              "equipoId": 2007,
+              "grupoId": 103,
+              "puntos": 24,
+              "partidosJugados": 13,
+              "partidosGanados": 7,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 3,
+              "golesFavor": 10,
+              "golesContra": 10
+            },
+            {
+              "id": 20039,
+              "equipoId": 2008,
+              "grupoId": 103,
+              "puntos": 15,
+              "partidosJugados": 9,
+              "partidosGanados": 5,
+              "partidosEmpatados": 0,
+              "partidosPerdidos": 4,
+              "golesFavor": 30,
+              "golesContra": 7
+            },
+            {
+              "id": 20040,
+              "equipoId": 2009,
+              "grupoId": 103,
+              "puntos": 14,
+              "partidosJugados": 10,
+              "partidosGanados": 3,
               "partidosEmpatados": 5,
               "partidosPerdidos": 2,
-              "golesFavor": 60,
-              "golesContra": 20
+              "golesFavor": 21,
+              "golesContra": 8
+            },
+            {
+              "id": 20041,
+              "equipoId": 2010,
+              "grupoId": 103,
+              "puntos": 25,
+              "partidosJugados": 9,
+              "partidosGanados": 8,
+              "partidosEmpatados": 1,
+              "partidosPerdidos": 0,
+              "golesFavor": 26,
+              "golesContra": 15
+            },
+            {
+              "id": 20042,
+              "equipoId": 2011,
+              "grupoId": 103,
+              "puntos": 32,
+              "partidosJugados": 12,
+              "partidosGanados": 10,
+              "partidosEmpatados": 2,
+              "partidosPerdidos": 0,
+              "golesFavor": 15,
+              "golesContra": 7
+            },
+            {
+              "id": 20043,
+              "equipoId": 2012,
+              "grupoId": 103,
+              "puntos": 8,
+              "partidosJugados": 11,
+              "partidosGanados": 1,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 5,
+              "golesFavor": 25,
+              "golesContra": 16
+            },
+            {
+              "id": 20044,
+              "equipoId": 2013,
+              "grupoId": 103,
+              "puntos": 26,
+              "partidosJugados": 14,
+              "partidosGanados": 7,
+              "partidosEmpatados": 5,
+              "partidosPerdidos": 2,
+              "golesFavor": 30,
+              "golesContra": 25
+            },
+            {
+              "id": 20045,
+              "equipoId": 2014,
+              "grupoId": 103,
+              "puntos": 24,
+              "partidosJugados": 15,
+              "partidosGanados": 7,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 5,
+              "golesFavor": 11,
+              "golesContra": 13
+            },
+            {
+              "id": 20046,
+              "equipoId": 2015,
+              "grupoId": 103,
+              "puntos": 18,
+              "partidosJugados": 10,
+              "partidosGanados": 5,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 2,
+              "golesFavor": 14,
+              "golesContra": 6
+            },
+            {
+              "id": 20047,
+              "equipoId": 2016,
+              "grupoId": 103,
+              "puntos": 25,
+              "partidosJugados": 11,
+              "partidosGanados": 8,
+              "partidosEmpatados": 1,
+              "partidosPerdidos": 2,
+              "golesFavor": 12,
+              "golesContra": 23
+            },
+            {
+              "id": 20048,
+              "equipoId": 2017,
+              "grupoId": 103,
+              "puntos": 21,
+              "partidosJugados": 13,
+              "partidosGanados": 6,
+              "partidosEmpatados": 3,
+              "partidosPerdidos": 4,
+              "golesFavor": 13,
+              "golesContra": 16
+            },
+            {
+              "id": 20049,
+              "equipoId": 2018,
+              "grupoId": 103,
+              "puntos": 9,
+              "partidosJugados": 8,
+              "partidosGanados": 3,
+              "partidosEmpatados": 0,
+              "partidosPerdidos": 5,
+              "golesFavor": 21,
+              "golesContra": 6
             }
           ],
           "partidos": [
             {
-              "id": 303,
-              "localId": 1005,
-              "visitanteId": 1006,
+              "id": 30240,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2002,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-09T11:42:10"
+            },
+            {
+              "id": 30241,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2003,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-03-01T11:42:10"
+            },
+            {
+              "id": 30242,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2004,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-03-18T11:42:10"
+            },
+            {
+              "id": 30243,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2005,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-02-08T11:42:10"
+            },
+            {
+              "id": 30244,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2006,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-15T11:42:10"
+            },
+            {
+              "id": 30245,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2007,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-04-19T11:42:10"
+            },
+            {
+              "id": 30246,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2008,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-02-18T11:42:10"
+            },
+            {
+              "id": 30247,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2009,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-02-27T11:42:10"
+            },
+            {
+              "id": 30248,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2010,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30249,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2011,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-02-25T11:42:10"
+            },
+            {
+              "id": 30250,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2012,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-03-05T11:42:10"
+            },
+            {
+              "id": 30251,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2013,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-03-27T11:42:10"
+            },
+            {
+              "id": 30252,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2014,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-04-01T11:42:10"
+            },
+            {
+              "id": 30253,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2015,
               "golesLocal": 4,
               "golesVisitante": 0,
-              "fecha": "2025-04-25T19:00:00"
+              "fecha": "2025-05-09T11:42:10"
+            },
+            {
+              "id": 30254,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2016,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-04-13T11:42:10"
+            },
+            {
+              "id": 30255,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2017,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-29T11:42:10"
+            },
+            {
+              "id": 30256,
+              "grupoId": 103,
+              "localId": 2001,
+              "visitanteId": 2018,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-04-23T11:42:10"
+            },
+            {
+              "id": 30257,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2003,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-03-07T11:42:10"
+            },
+            {
+              "id": 30258,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2004,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-02-21T11:42:10"
+            },
+            {
+              "id": 30259,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2005,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-05T11:42:10"
+            },
+            {
+              "id": 30260,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2006,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-02-18T11:42:10"
+            },
+            {
+              "id": 30261,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2007,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-03-18T11:42:10"
+            },
+            {
+              "id": 30262,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2008,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-05-03T11:42:10"
+            },
+            {
+              "id": 30263,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2009,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-04-01T11:42:10"
+            },
+            {
+              "id": 30264,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2010,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-24T11:42:10"
+            },
+            {
+              "id": 30265,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2011,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-02-14T11:42:10"
+            },
+            {
+              "id": 30266,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2012,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-03-09T11:42:10"
+            },
+            {
+              "id": 30267,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2013,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-04-21T11:42:10"
+            },
+            {
+              "id": 30268,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2014,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-02-08T11:42:10"
+            },
+            {
+              "id": 30269,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2015,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-30T11:42:10"
+            },
+            {
+              "id": 30270,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2016,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30271,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2017,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-04-28T11:42:10"
+            },
+            {
+              "id": 30272,
+              "grupoId": 103,
+              "localId": 2002,
+              "visitanteId": 2018,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-03-08T11:42:10"
+            },
+            {
+              "id": 30273,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2004,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-02-05T11:42:10"
+            },
+            {
+              "id": 30274,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2005,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-04-19T11:42:10"
+            },
+            {
+              "id": 30275,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2006,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-27T11:42:10"
+            },
+            {
+              "id": 30276,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2007,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30277,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2008,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30278,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2009,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-05-07T11:42:10"
+            },
+            {
+              "id": 30279,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2010,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-04-30T11:42:10"
+            },
+            {
+              "id": 30280,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2011,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-03-28T11:42:10"
+            },
+            {
+              "id": 30281,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2012,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-04-17T11:42:10"
+            },
+            {
+              "id": 30282,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2013,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30283,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2014,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-03-12T11:42:10"
+            },
+            {
+              "id": 30284,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2015,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-04-23T11:42:10"
+            },
+            {
+              "id": 30285,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2016,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-04-04T11:42:10"
+            },
+            {
+              "id": 30286,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2017,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30287,
+              "grupoId": 103,
+              "localId": 2003,
+              "visitanteId": 2018,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-02-22T11:42:10"
+            },
+            {
+              "id": 30288,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2005,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-04-24T11:42:10"
+            },
+            {
+              "id": 30289,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2006,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-02-02T11:42:10"
+            },
+            {
+              "id": 30290,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2007,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-05-10T11:42:10"
+            },
+            {
+              "id": 30291,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2008,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-03-16T11:42:10"
+            },
+            {
+              "id": 30292,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2009,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-02-22T11:42:10"
+            },
+            {
+              "id": 30293,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2010,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-05-04T11:42:10"
+            },
+            {
+              "id": 30294,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2011,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-04-23T11:42:10"
+            },
+            {
+              "id": 30295,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2012,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-15T11:42:10"
+            },
+            {
+              "id": 30296,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2013,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-03-05T11:42:10"
+            },
+            {
+              "id": 30297,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2014,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-03-30T11:42:10"
+            },
+            {
+              "id": 30298,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2015,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-04-30T11:42:10"
+            },
+            {
+              "id": 30299,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2016,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-14T11:42:10"
+            },
+            {
+              "id": 30300,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2017,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-02-09T11:42:10"
+            },
+            {
+              "id": 30301,
+              "grupoId": 103,
+              "localId": 2004,
+              "visitanteId": 2018,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-04-25T11:42:10"
+            },
+            {
+              "id": 30302,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2006,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-03-04T11:42:10"
+            },
+            {
+              "id": 30303,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2007,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-04-13T11:42:10"
+            },
+            {
+              "id": 30304,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2008,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-05-08T11:42:10"
+            },
+            {
+              "id": 30305,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2009,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-03-06T11:42:10"
+            },
+            {
+              "id": 30306,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2010,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-03-21T11:42:10"
+            },
+            {
+              "id": 30307,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2011,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-05-01T11:42:10"
+            },
+            {
+              "id": 30308,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2012,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-28T11:42:10"
+            },
+            {
+              "id": 30309,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2013,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30310,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2014,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-23T11:42:10"
+            },
+            {
+              "id": 30311,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2015,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-04-05T11:42:10"
+            },
+            {
+              "id": 30312,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2016,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-05-03T11:42:10"
+            },
+            {
+              "id": 30313,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2017,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-03-23T11:42:10"
+            },
+            {
+              "id": 30314,
+              "grupoId": 103,
+              "localId": 2005,
+              "visitanteId": 2018,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-14T11:42:10"
+            },
+            {
+              "id": 30315,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2007,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-03-31T11:42:10"
+            },
+            {
+              "id": 30316,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2008,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-02-05T11:42:10"
+            },
+            {
+              "id": 30317,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2009,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-03-05T11:42:10"
+            },
+            {
+              "id": 30318,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2010,
+              "golesLocal": 4,
+              "golesVisitante": 1,
+              "fecha": "2025-02-13T11:42:10"
+            },
+            {
+              "id": 30319,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2011,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-03-18T11:42:10"
+            },
+            {
+              "id": 30320,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2012,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-22T11:42:10"
+            },
+            {
+              "id": 30321,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2013,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-02-25T11:42:10"
+            },
+            {
+              "id": 30322,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2014,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-04-27T11:42:10"
+            },
+            {
+              "id": 30323,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2015,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30324,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2016,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-03-29T11:42:10"
+            },
+            {
+              "id": 30325,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2017,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-02-07T11:42:10"
+            },
+            {
+              "id": 30326,
+              "grupoId": 103,
+              "localId": 2006,
+              "visitanteId": 2018,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-04-02T11:42:10"
+            },
+            {
+              "id": 30327,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2008,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-03-10T11:42:10"
+            },
+            {
+              "id": 30328,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2009,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-17T11:42:10"
+            },
+            {
+              "id": 30329,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2010,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-06T11:42:10"
+            },
+            {
+              "id": 30330,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2011,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-07T11:42:10"
+            },
+            {
+              "id": 30331,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2012,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-04-16T11:42:10"
+            },
+            {
+              "id": 30332,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2013,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-02-04T11:42:10"
+            },
+            {
+              "id": 30333,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2014,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-08T11:42:10"
+            },
+            {
+              "id": 30334,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2015,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-04-05T11:42:10"
+            },
+            {
+              "id": 30335,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2016,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-05-05T11:42:10"
+            },
+            {
+              "id": 30336,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2017,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-03-28T11:42:10"
+            },
+            {
+              "id": 30337,
+              "grupoId": 103,
+              "localId": 2007,
+              "visitanteId": 2018,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-02-10T11:42:10"
+            },
+            {
+              "id": 30338,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2009,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-02-05T11:42:10"
+            },
+            {
+              "id": 30339,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2010,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-04-16T11:42:10"
+            },
+            {
+              "id": 30340,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2011,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-03-21T11:42:10"
+            },
+            {
+              "id": 30341,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2012,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-05-01T11:42:10"
+            },
+            {
+              "id": 30342,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2013,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-02-17T11:42:10"
+            },
+            {
+              "id": 30343,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2014,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-04-27T11:42:10"
+            },
+            {
+              "id": 30344,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2015,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-02-19T11:42:10"
+            },
+            {
+              "id": 30345,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2016,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-04-20T11:42:10"
+            },
+            {
+              "id": 30346,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2017,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-04-06T11:42:10"
+            },
+            {
+              "id": 30347,
+              "grupoId": 103,
+              "localId": 2008,
+              "visitanteId": 2018,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30348,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2010,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-29T11:42:10"
+            },
+            {
+              "id": 30349,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2011,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-02-22T11:42:10"
+            },
+            {
+              "id": 30350,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2012,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-02-25T11:42:10"
+            },
+            {
+              "id": 30351,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2013,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-04-30T11:42:10"
+            },
+            {
+              "id": 30352,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2014,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-04-11T11:42:10"
+            },
+            {
+              "id": 30353,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2015,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-04-07T11:42:10"
+            },
+            {
+              "id": 30354,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2016,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-06T11:42:10"
+            },
+            {
+              "id": 30355,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2017,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-04-02T11:42:10"
+            },
+            {
+              "id": 30356,
+              "grupoId": 103,
+              "localId": 2009,
+              "visitanteId": 2018,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-04-05T11:42:10"
+            },
+            {
+              "id": 30357,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2011,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-04-15T11:42:10"
+            },
+            {
+              "id": 30358,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2012,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-02-09T11:42:10"
+            },
+            {
+              "id": 30359,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2013,
+              "golesLocal": 0,
+              "golesVisitante": 3,
+              "fecha": "2025-02-01T11:42:10"
+            },
+            {
+              "id": 30360,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2014,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-03-07T11:42:10"
+            },
+            {
+              "id": 30361,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2015,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-04-05T11:42:10"
+            },
+            {
+              "id": 30362,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2016,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-05-07T11:42:10"
+            },
+            {
+              "id": 30363,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2017,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-04-20T11:42:10"
+            },
+            {
+              "id": 30364,
+              "grupoId": 103,
+              "localId": 2010,
+              "visitanteId": 2018,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-04-21T11:42:10"
+            },
+            {
+              "id": 30365,
+              "grupoId": 103,
+              "localId": 2011,
+              "visitanteId": 2012,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-03T11:42:10"
+            },
+            {
+              "id": 30366,
+              "grupoId": 103,
+              "localId": 2011,
+              "visitanteId": 2013,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-05-02T11:42:10"
+            },
+            {
+              "id": 30367,
+              "grupoId": 103,
+              "localId": 2011,
+              "visitanteId": 2014,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-04-12T11:42:10"
+            },
+            {
+              "id": 30368,
+              "grupoId": 103,
+              "localId": 2011,
+              "visitanteId": 2015,
+              "golesLocal": 4,
+              "golesVisitante": 2,
+              "fecha": "2025-04-20T11:42:10"
+            },
+            {
+              "id": 30369,
+              "grupoId": 103,
+              "localId": 2011,
+              "visitanteId": 2016,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-02-23T11:42:10"
+            },
+            {
+              "id": 30370,
+              "grupoId": 103,
+              "localId": 2011,
+              "visitanteId": 2017,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-04-11T11:42:10"
+            },
+            {
+              "id": 30371,
+              "grupoId": 103,
+              "localId": 2011,
+              "visitanteId": 2018,
+              "golesLocal": 2,
+              "golesVisitante": 0,
+              "fecha": "2025-04-16T11:42:10"
+            },
+            {
+              "id": 30372,
+              "grupoId": 103,
+              "localId": 2012,
+              "visitanteId": 2013,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-04-23T11:42:10"
+            },
+            {
+              "id": 30373,
+              "grupoId": 103,
+              "localId": 2012,
+              "visitanteId": 2014,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-02-26T11:42:10"
+            },
+            {
+              "id": 30374,
+              "grupoId": 103,
+              "localId": 2012,
+              "visitanteId": 2015,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-04-15T11:42:10"
+            },
+            {
+              "id": 30375,
+              "grupoId": 103,
+              "localId": 2012,
+              "visitanteId": 2016,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-02-28T11:42:10"
+            },
+            {
+              "id": 30376,
+              "grupoId": 103,
+              "localId": 2012,
+              "visitanteId": 2017,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-04-09T11:42:10"
+            },
+            {
+              "id": 30377,
+              "grupoId": 103,
+              "localId": 2012,
+              "visitanteId": 2018,
+              "golesLocal": 2,
+              "golesVisitante": 2,
+              "fecha": "2025-03-14T11:42:10"
+            },
+            {
+              "id": 30378,
+              "grupoId": 103,
+              "localId": 2013,
+              "visitanteId": 2014,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-03-25T11:42:10"
+            },
+            {
+              "id": 30379,
+              "grupoId": 103,
+              "localId": 2013,
+              "visitanteId": 2015,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-02-24T11:42:10"
+            },
+            {
+              "id": 30380,
+              "grupoId": 103,
+              "localId": 2013,
+              "visitanteId": 2016,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-19T11:42:10"
+            },
+            {
+              "id": 30381,
+              "grupoId": 103,
+              "localId": 2013,
+              "visitanteId": 2017,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-02-21T11:42:10"
+            },
+            {
+              "id": 30382,
+              "grupoId": 103,
+              "localId": 2013,
+              "visitanteId": 2018,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-04-16T11:42:10"
+            },
+            {
+              "id": 30383,
+              "grupoId": 103,
+              "localId": 2014,
+              "visitanteId": 2015,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-05-03T11:42:10"
+            },
+            {
+              "id": 30384,
+              "grupoId": 103,
+              "localId": 2014,
+              "visitanteId": 2016,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-04-20T11:42:10"
+            },
+            {
+              "id": 30385,
+              "grupoId": 103,
+              "localId": 2014,
+              "visitanteId": 2017,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-04-10T11:42:10"
+            },
+            {
+              "id": 30386,
+              "grupoId": 103,
+              "localId": 2014,
+              "visitanteId": 2018,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-29T11:42:10"
+            },
+            {
+              "id": 30387,
+              "grupoId": 103,
+              "localId": 2015,
+              "visitanteId": 2016,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-02-15T11:42:10"
+            },
+            {
+              "id": 30388,
+              "grupoId": 103,
+              "localId": 2015,
+              "visitanteId": 2017,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-03-25T11:42:10"
+            },
+            {
+              "id": 30389,
+              "grupoId": 103,
+              "localId": 2015,
+              "visitanteId": 2018,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-03-26T11:42:10"
+            },
+            {
+              "id": 30390,
+              "grupoId": 103,
+              "localId": 2016,
+              "visitanteId": 2017,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-03-22T11:42:10"
+            },
+            {
+              "id": 30391,
+              "grupoId": 103,
+              "localId": 2016,
+              "visitanteId": 2018,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-03-30T11:42:10"
+            },
+            {
+              "id": 30392,
+              "grupoId": 103,
+              "localId": 2017,
+              "visitanteId": 2018,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-04-04T11:42:10"
             }
           ]
         }
