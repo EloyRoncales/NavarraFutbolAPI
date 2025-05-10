@@ -77,5 +77,29 @@ namespace NavarraFutbolAPI.Controllers
 
             return NoContent();
         }
+
+        // Obtener los partidos de una categoría
+        [HttpGet("categoria/{categoriaId}")]
+        public async Task<ActionResult<IEnumerable<Partido>>> GetPartidosByCategoria(int categoriaId)
+        {
+            var categoria = await _context.Categorias
+                                          .Include(c => c.Grupos)
+                                          .ThenInclude(g => g.Partidos)
+                                          .FirstOrDefaultAsync(c => c.Id == categoriaId);
+
+            if (categoria == null)
+            {
+                return NotFound(new { message = "Categoría no encontrada." });
+            }
+
+            var partidos = categoria.Grupos.SelectMany(g => g.Partidos).ToList();
+
+            if (!partidos.Any())
+            {
+                return NotFound(new { message = "No se encontraron partidos para esta categoría." });
+            }
+
+            return Ok(partidos);
+        }
     }
 }
