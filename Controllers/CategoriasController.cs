@@ -85,20 +85,15 @@ namespace NavarraFutbolAPI.Controllers
         public async Task<ActionResult<IEnumerable<Grupo>>> GetGruposByCategoria(int id)
         {
             var categoria = await _context.Categorias
-                                        .Include(c => c.Grupos)  // Incluir los grupos relacionados
-                                        .FirstOrDefaultAsync(c => c.Id == id);
-            
+                                          .Include(c => c.Grupos) // Incluir los grupos relacionados
+                                          .FirstOrDefaultAsync(c => c.Id == id);
+
             if (categoria == null)
             {
                 return NotFound(new { message = "Categoría no encontrada." });
             }
 
-            if (categoria.Grupos == null || !categoria.Grupos.Any())
-            {
-                return NotFound(new { message = "No se encontraron grupos para esta categoría." });
-            }
-
-            return Ok(categoria.Grupos);  // Retorna los grupos en formato correcto
+            return Ok(categoria.Grupos); // Retorna los grupos en formato correcto
         }
 
 
@@ -106,14 +101,16 @@ namespace NavarraFutbolAPI.Controllers
         [HttpGet("grupos/{id}/partidos")]
         public async Task<ActionResult<IEnumerable<Partido>>> GetPartidosByGrupo(int id)
         {
-            var grupo = await _context.Grupos.Include(g => g.Partidos)
-                                              .FirstOrDefaultAsync(g => g.Id == id);
+            var grupo = await _context.Grupos
+                              .Include(g => g.Partidos) // Incluir los partidos relacionados
+                              .FirstOrDefaultAsync(g => g.Id == id);
+
             if (grupo == null)
             {
-                return NotFound();
+                return NotFound(new { message = "Grupo no encontrado." });
             }
 
-            return grupo.Partidos;
+            return Ok(grupo.Partidos); // Retorna los partidos en formato correcto
         }
     }
 }
