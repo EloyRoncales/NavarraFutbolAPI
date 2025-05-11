@@ -78,28 +78,45 @@ namespace NavarraFutbolAPI.Controllers
             return NoContent();
         }
 
-        // Obtener los partidos de una categoría
-        [HttpGet("categoria/{categoriaId}")]
-        public async Task<ActionResult<IEnumerable<Partido>>> GetPartidosByCategoria(int categoriaId)
+        [HttpGet("categoria/{categoriaId}/partidos")]
+        public async Task<ActionResult> GetPartidosByCategoria(int categoriaId)
         {
             var categoria = await _context.Categorias
-                                          .Include(c => c.Grupos)
-                                          .ThenInclude(g => g.Partidos)
-                                          .FirstOrDefaultAsync(c => c.Id == categoriaId);
+                .Include(c => c.Grupos)
+                    .ThenInclude(g => g.Partidos)
+                        .ThenInclude(p => p.Local)
+                .Include(c => c.Grupos)
+                    .ThenInclude(g => g.Partidos)
+                        .ThenInclude(p => p.Visitante)
+                .FirstOrDefaultAsync(c => c.Id == categoriaId);
 
             if (categoria == null)
             {
                 return NotFound(new { message = "Categoría no encontrada." });
             }
 
-            var partidos = categoria.Grupos.SelectMany(g => g.Partidos).ToList();
-
-            if (!partidos.Any())
+            var response = new
             {
-                return NotFound(new { message = "No se encontraron partidos para esta categoría." });
-            }
+                Categoria = categoria.Nombre ?? $"Categoría {categoria.Id}",
+                Grupos = categoria.Grupos.Select(grupo => new
+                {
+                    Grupo = grupo.Nombre ?? $"Grupo {grupo.Id}",
+                    Partidos = grupo.Partidos.Select(partido => new
+                    {
+                        partido.Id,
+                        partido.Fecha,
+                        EquipoLocal = partido.Local?.Nombre ?? "Desconocido",
+                        EquipoVisitante = partido.Visitante?.Nombre ?? "Desconocido",
+                        GolesLocal = partido.GolesLocal,
+                        GolesVisitante = partido.GolesVisitante
+                    })
+                })
+            };
 
-            return Ok(partidos);
+            return Ok(response);
         }
+
     }
 }
+
+
