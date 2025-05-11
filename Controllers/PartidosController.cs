@@ -82,38 +82,32 @@ namespace NavarraFutbolAPI.Controllers
         public async Task<ActionResult> GetPartidosByCategoria(int categoriaId)
         {
             var categoria = await _context.Categorias
-                .Include(c => c.Grupos)
-                    .ThenInclude(g => g.Partidos)
-                        .ThenInclude(p => p.Local)
-                .Include(c => c.Grupos)
-                    .ThenInclude(g => g.Partidos)
-                        .ThenInclude(p => p.Visitante)
-                .FirstOrDefaultAsync(c => c.Id == categoriaId);
+                .Where(c => c.Id == categoriaId) // Usamos Where para mayor claridad
+                .Select(c => new // Proyectamos directamente a un objeto anónimo
+                {
+                    Categoria = c.Nombre ?? $"Categoría {c.Id}",
+                    Grupos = c.Grupos.Select(g => new // Proyectamos los Grupos
+                    {
+                        Grupo = g.Nombre ?? $"Grupo {g.Id}",
+                        Partidos = g.Partidos.Select(p => new // Proyectamos los Partidos
+                        {
+                            p.Id,
+                            p.Fecha,
+                            EquipoLocal = p.Local != null ? p.Local.Nombre : "Desconocido",
+                            EquipoVisitante = p.Visitante != null ? p.Visitante.Nombre : "Desconocido",
+                            GolesLocal = p.GolesLocal,
+                            GolesVisitante = p.GolesVisitante
+                        }).ToList() // Aseguramos que Partidos sea una lista serializable
+                    }).ToList() // Aseguramos que Grupos sea una lista serializable
+                })
+                .FirstOrDefaultAsync();
 
             if (categoria == null)
             {
                 return NotFound(new { message = "Categoría no encontrada." });
             }
 
-            var response = new
-            {
-                Categoria = categoria.Nombre ?? $"Categoría {categoria.Id}",
-                Grupos = categoria.Grupos.Select(grupo => new
-                {
-                    Grupo = grupo.Nombre ?? $"Grupo {grupo.Id}",
-                    Partidos = grupo.Partidos.Select(partido => new
-                    {
-                        partido.Id,
-                        partido.Fecha,
-                        EquipoLocal = partido.Local?.Nombre ?? "Desconocido",
-                        EquipoVisitante = partido.Visitante?.Nombre ?? "Desconocido",
-                        GolesLocal = partido.GolesLocal,
-                        GolesVisitante = partido.GolesVisitante
-                    })
-                })
-            };
-
-            return Ok(response);
+            return Ok(categoria); // Devolvemos directamente el objeto anónimo creado
         }
 
     }
