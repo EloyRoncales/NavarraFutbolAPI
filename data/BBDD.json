@@ -2,6 +2,4290 @@
   "categorias": [
     {
       "id": 1,
+      "nombre": "Tercera Federación",
+      "grupos": [
+        {
+          "id": 100,
+          "nombre": "Tercera División",
+          "equipos": [
+            {
+              "id": 3001,
+              "nombre": "U.D. Mutilvera",
+              "escudoUrl": "",
+              "estadio": "Estadio U.D. Mutilvera"
+            },
+            {
+              "id": 3002,
+              "nombre": "C.D. Valle de Egüés",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Valle de Egüés"
+            },
+            {
+              "id": 3003,
+              "nombre": "A.D. San Juan",
+              "escudoUrl": "",
+              "estadio": "Estadio A.D. San Juan"
+            },
+            {
+              "id": 3004,
+              "nombre": "C.D. Cortes",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Cortes"
+            },
+            {
+              "id": 3005,
+              "nombre": "Peña Sport F.C.",
+              "escudoUrl": "",
+              "estadio": "Estadio Peña Sport F.C."
+            },
+            {
+              "id": 3006,
+              "nombre": "U.D.C. Txantrea K.K.E.",
+              "escudoUrl": "",
+              "estadio": "Estadio U.D.C. Txantrea K.K.E."
+            },
+            {
+              "id": 3007,
+              "nombre": "C.D. Huarte",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Huarte"
+            },
+            {
+              "id": 3008,
+              "nombre": "C.D. Ardoi",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Ardoi"
+            },
+            {
+              "id": 3009,
+              "nombre": "C.D. Pamplona",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Pamplona"
+            },
+            {
+              "id": 3010,
+              "nombre": "C.A. Cirbonero",
+              "escudoUrl": "",
+              "estadio": "Estadio C.A. Cirbonero"
+            },
+            {
+              "id": 3011,
+              "nombre": "F.C. Bidezarra",
+              "escudoUrl": "",
+              "estadio": "Estadio F.C. Bidezarra"
+            },
+            {
+              "id": 3012,
+              "nombre": "Beti Kozkor K.E.",
+              "escudoUrl": "",
+              "estadio": "Estadio Beti Kozkor K.E."
+            },
+            {
+              "id": 3013,
+              "nombre": "C.A. Artajones",
+              "escudoUrl": "",
+              "estadio": "Estadio C.A. Artajones"
+            },
+            {
+              "id": 3014,
+              "nombre": "C.D. Beti Onak",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Beti Onak"
+            },
+            {
+              "id": 3015,
+              "nombre": "U.C.D. Burlades",
+              "escudoUrl": "",
+              "estadio": "Estadio U.C.D. Burlades"
+            },
+            {
+              "id": 3016,
+              "nombre": "Rotxapea C.D.",
+              "escudoUrl": "",
+              "estadio": "Estadio Rotxapea C.D."
+            },
+            {
+              "id": 3017,
+              "nombre": "C.D. Gares",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Gares"
+            },
+            {
+              "id": 3018,
+              "nombre": "C.D. Cantolagua",
+              "escudoUrl": "",
+              "estadio": "Estadio C.D. Cantolagua"
+            }
+          ],
+          "clasificacion": [
+            {
+              "equipoId": 3001,
+              "grupoId": 100,
+              "puntos": 78,
+              "partidosJugados": 34,
+              "partidosGanados": 23,
+              "partidosEmpatados": 7,
+              "partidosPerdidos": 4,
+              "golesFavor": 70,
+              "golesContra": 30
+            },
+            {
+              "equipoId": 3002,
+              "grupoId": 100,
+              "puntos": 75,
+              "partidosJugados": 34,
+              "partidosGanados": 23,
+              "partidosEmpatados": 6,
+              "partidosPerdidos": 5,
+              "golesFavor": 68,
+              "golesContra": 32
+            },
+            {
+              "equipoId": 3003,
+              "grupoId": 100,
+              "puntos": 64,
+              "partidosJugados": 34,
+              "partidosGanados": 18,
+              "partidosEmpatados": 10,
+              "partidosPerdidos": 6,
+              "golesFavor": 60,
+              "golesContra": 40
+            },
+            {
+              "equipoId": 3004,
+              "grupoId": 100,
+              "puntos": 62,
+              "partidosJugados": 34,
+              "partidosGanados": 18,
+              "partidosEmpatados": 8,
+              "partidosPerdidos": 8,
+              "golesFavor": 58,
+              "golesContra": 42
+            },
+            {
+              "equipoId": 3005,
+              "grupoId": 100,
+              "puntos": 58,
+              "partidosJugados": 34,
+              "partidosGanados": 15,
+              "partidosEmpatados": 13,
+              "partidosPerdidos": 6,
+              "golesFavor": 55,
+              "golesContra": 45
+            },
+            {
+              "equipoId": 3006,
+              "grupoId": 100,
+              "puntos": 57,
+              "partidosJugados": 34,
+              "partidosGanados": 16,
+              "partidosEmpatados": 9,
+              "partidosPerdidos": 9,
+              "golesFavor": 52,
+              "golesContra": 48
+            },
+            {
+              "equipoId": 3007,
+              "grupoId": 100,
+              "puntos": 57,
+              "partidosJugados": 34,
+              "partidosGanados": 16,
+              "partidosEmpatados": 9,
+              "partidosPerdidos": 9,
+              "golesFavor": 51,
+              "golesContra": 47
+            },
+            {
+              "equipoId": 3008,
+              "grupoId": 100,
+              "puntos": 55,
+              "partidosJugados": 34,
+              "partidosGanados": 16,
+              "partidosEmpatados": 7,
+              "partidosPerdidos": 11,
+              "golesFavor": 50,
+              "golesContra": 50
+            },
+            {
+              "equipoId": 3009,
+              "grupoId": 100,
+              "puntos": 50,
+              "partidosJugados": 34,
+              "partidosGanados": 13,
+              "partidosEmpatados": 11,
+              "partidosPerdidos": 10,
+              "golesFavor": 45,
+              "golesContra": 40
+            },
+            {
+              "equipoId": 3010,
+              "grupoId": 100,
+              "puntos": 45,
+              "partidosJugados": 34,
+              "partidosGanados": 11,
+              "partidosEmpatados": 12,
+              "partidosPerdidos": 11,
+              "golesFavor": 40,
+              "golesContra": 38
+            },
+            {
+              "equipoId": 3011,
+              "grupoId": 100,
+              "puntos": 44,
+              "partidosJugados": 34,
+              "partidosGanados": 10,
+              "partidosEmpatados": 14,
+              "partidosPerdidos": 10,
+              "golesFavor": 38,
+              "golesContra": 42
+            },
+            {
+              "equipoId": 3012,
+              "grupoId": 100,
+              "puntos": 37,
+              "partidosJugados": 34,
+              "partidosGanados": 9,
+              "partidosEmpatados": 10,
+              "partidosPerdidos": 15,
+              "golesFavor": 35,
+              "golesContra": 45
+            },
+            {
+              "equipoId": 3013,
+              "grupoId": 100,
+              "puntos": 33,
+              "partidosJugados": 34,
+              "partidosGanados": 7,
+              "partidosEmpatados": 12,
+              "partidosPerdidos": 15,
+              "golesFavor": 30,
+              "golesContra": 50
+            },
+            {
+              "equipoId": 3014,
+              "grupoId": 100,
+              "puntos": 33,
+              "partidosJugados": 34,
+              "partidosGanados": 9,
+              "partidosEmpatados": 8,
+              "partidosPerdidos": 17,
+              "golesFavor": 28,
+              "golesContra": 52
+            },
+            {
+              "equipoId": 3015,
+              "grupoId": 100,
+              "puntos": 28,
+              "partidosJugados": 34,
+              "partidosGanados": 6,
+              "partidosEmpatados": 8,
+              "partidosPerdidos": 20,
+              "golesFavor": 25,
+              "golesContra": 55
+            },
+            {
+              "equipoId": 3016,
+              "grupoId": 100,
+              "puntos": 23,
+              "partidosJugados": 34,
+              "partidosGanados": 5,
+              "partidosEmpatados": 8,
+              "partidosPerdidos": 21,
+              "golesFavor": 20,
+              "golesContra": 60
+            },
+            {
+              "equipoId": 3017,
+              "grupoId": 100,
+              "puntos": 22,
+              "partidosJugados": 34,
+              "partidosGanados": 5,
+              "partidosEmpatados": 7,
+              "partidosPerdidos": 22,
+              "golesFavor": 18,
+              "golesContra": 58
+            },
+            {
+              "equipoId": 3018,
+              "grupoId": 100,
+              "puntos": 18,
+              "partidosJugados": 34,
+              "partidosGanados": 3,
+              "partidosEmpatados": 9,
+              "partidosPerdidos": 22,
+              "golesFavor": 15,
+              "golesContra": 65
+            }
+          ],
+          "partidos": [
+            {
+              "id": 9001,
+              "grupoId": 100,
+              "localId": 3001,
+              "visitanteId": 3012,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-02-09",
+              "hora": "18:30"
+            },
+            {
+              "id": 9002,
+              "grupoId": 100,
+              "localId": 3013,
+              "visitanteId": 3001,
+              "golesLocal": 2,
+              "golesVisitante": 4,
+              "fecha": "2025-03-01",
+              "hora": "19:30"
+            },
+            {
+              "id": 9003,
+              "grupoId": 100,
+              "localId": 3002,
+              "visitanteId": 3017,
+              "golesLocal": 0,
+              "golesVisitante": 1,
+              "fecha": "2025-03-04",
+              "hora": "17:00"
+            },
+            {
+              "id": 9004,
+              "grupoId": 100,
+              "localId": 3008,
+              "visitanteId": 3002,
+              "golesLocal": 3,
+              "golesVisitante": 5,
+              "fecha": "2025-04-09",
+              "hora": "21:30"
+            },
+            {
+              "id": 9005,
+              "grupoId": 100,
+              "localId": 3003,
+              "visitanteId": 3009,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-05-01",
+              "hora": "17:30"
+            },
+            {
+              "id": 9006,
+              "grupoId": 100,
+              "localId": 3014,
+              "visitanteId": 3003,
+              "golesLocal": 3,
+              "golesVisitante": 1,
+              "fecha": "2025-02-21",
+              "hora": "20:30"
+            },
+            {
+              "id": 9007,
+              "grupoId": 100,
+              "localId": 3004,
+              "visitanteId": 3001,
+              "golesLocal": 5,
+              "golesVisitante": 3,
+              "fecha": "2025-02-08",
+              "hora": "18:30"
+            },
+            {
+              "id": 9008,
+              "grupoId": 100,
+              "localId": 3007,
+              "visitanteId": 3004,
+              "golesLocal": 4,
+              "golesVisitante": 4,
+              "fecha": "2025-03-19",
+              "hora": "17:00"
+            },
+            {
+              "id": 9009,
+              "grupoId": 100,
+              "localId": 3005,
+              "visitanteId": 3003,
+              "golesLocal": 3,
+              "golesVisitante": 0,
+              "fecha": "2025-04-12",
+              "hora": "17:00"
+            },
+            {
+              "id": 9010,
+              "grupoId": 100,
+              "localId": 3012,
+              "visitanteId": 3005,
+              "golesLocal": 5,
+              "golesVisitante": 5,
+              "fecha": "2025-05-01",
+              "hora": "17:00"
+            },
+            {
+              "id": 9011,
+              "grupoId": 100,
+              "localId": 3006,
+              "visitanteId": 3010,
+              "golesLocal": 1,
+              "golesVisitante": 2,
+              "fecha": "2025-03-18",
+              "hora": "21:00"
+            },
+            {
+              "id": 9012,
+              "grupoId": 100,
+              "localId": 3004,
+              "visitanteId": 3006,
+              "golesLocal": 1,
+              "golesVisitante": 3,
+              "fecha": "2025-02-03",
+              "hora": "16:00"
+            },
+            {
+              "id": 9013,
+              "grupoId": 100,
+              "localId": 3007,
+              "visitanteId": 3014,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-03-04",
+              "hora": "16:00"
+            },
+            {
+              "id": 9014,
+              "grupoId": 100,
+              "localId": 3004,
+              "visitanteId": 3007,
+              "golesLocal": 4,
+              "golesVisitante": 5,
+              "fecha": "2025-03-23",
+              "hora": "21:00"
+            },
+            {
+              "id": 9015,
+              "grupoId": 100,
+              "localId": 3008,
+              "visitanteId": 3004,
+              "golesLocal": 1,
+              "golesVisitante": 5,
+              "fecha": "2025-02-24",
+              "hora": "18:00"
+            },
+            {
+              "id": 9016,
+              "grupoId": 100,
+              "localId": 3002,
+              "visitanteId": 3008,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-04-26",
+              "hora": "21:30"
+            },
+            {
+              "id": 9017,
+              "grupoId": 100,
+              "localId": 3009,
+              "visitanteId": 3003,
+              "golesLocal": 3,
+              "golesVisitante": 4,
+              "fecha": "2025-04-02",
+              "hora": "20:00"
+            },
+            {
+              "id": 9018,
+              "grupoId": 100,
+              "localId": 3007,
+              "visitanteId": 3009,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-02-11",
+              "hora": "18:00"
+            },
+            {
+              "id": 9019,
+              "grupoId": 100,
+              "localId": 3010,
+              "visitanteId": 3014,
+              "golesLocal": 1,
+              "golesVisitante": 0,
+              "fecha": "2025-04-03",
+              "hora": "17:30"
+            },
+            {
+              "id": 9020,
+              "grupoId": 100,
+              "localId": 3001,
+              "visitanteId": 3010,
+              "golesLocal": 4,
+              "golesVisitante": 5,
+              "fecha": "2025-03-31",
+              "hora": "17:30"
+            },
+            {
+              "id": 9021,
+              "grupoId": 100,
+              "localId": 3011,
+              "visitanteId": 3004,
+              "golesLocal": 3,
+              "golesVisitante": 2,
+              "fecha": "2025-02-11",
+              "hora": "19:00"
+            },
+            {
+              "id": 9022,
+              "grupoId": 100,
+              "localId": 3010,
+              "visitanteId": 3011,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-04-26",
+              "hora": "18:00"
+            },
+            {
+              "id": 9023,
+              "grupoId": 100,
+              "localId": 3012,
+              "visitanteId": 3009,
+              "golesLocal": 0,
+              "golesVisitante": 2,
+              "fecha": "2025-05-06",
+              "hora": "18:30"
+            },
+            {
+              "id": 9024,
+              "grupoId": 100,
+              "localId": 3006,
+              "visitanteId": 3012,
+              "golesLocal": 2,
+              "golesVisitante": 3,
+              "fecha": "2025-03-31",
+              "hora": "20:00"
+            },
+            {
+              "id": 9025,
+              "grupoId": 100,
+              "localId": 3013,
+              "visitanteId": 3017,
+              "golesLocal": 1,
+              "golesVisitante": 4,
+              "fecha": "2025-03-18",
+              "hora": "21:00"
+            },
+            {
+              "id": 9026,
+              "grupoId": 100,
+              "localId": 3001,
+              "visitanteId": 3013,
+              "golesLocal": 3,
+              "golesVisitante": 5,
+              "fecha": "2025-03-18",
+              "hora": "19:30"
+            },
+            {
+              "id": 9027,
+              "grupoId": 100,
+              "localId": 3014,
+              "visitanteId": 3007,
+              "golesLocal": 3,
+              "golesVisitante": 3,
+              "fecha": "2025-05-13",
+              "hora": "18:30"
+            },
+            {
+              "id": 9028,
+              "grupoId": 100,
+              "localId": 3009,
+              "visitanteId": 3014,
+              "golesLocal": 0,
+              "golesVisitante": 4,
+              "fecha": "2025-03-15",
+              "hora": "16:30"
+            },
+            {
+              "id": 9029,
+              "grupoId": 100,
+              "localId": 3015,
+              "visitanteId": 3011,
+              "golesLocal": 0,
+              "golesVisitante": 0,
+              "fecha": "2025-05-10",
+              "hora": "19:00"
+            },
+            {
+              "id": 9030,
+              "grupoId": 100,
+              "localId": 3008,
+              "visitanteId": 3015,
+              "golesLocal": 2,
+              "golesVisitante": 1,
+              "fecha": "2025-05-08",
+              "hora": "17:00"
+            },
+            {
+              "id": 9031,
+              "grupoId": 100,
+              "localId": 3016,
+              "visitanteId": 3009,
+              "golesLocal": 4,
+              "golesVisitante": 3,
+              "fecha": "2025-02-11",
+              "hora": "21:00"
+            },
+            {
+              "id": 9032,
+              "grupoId": 100,
+              "localId": 3008,
+              "visitanteId": 3016,
+              "golesLocal": 4,
+              "golesVisitante": 5,
+              "fecha": "2025-02-12",
+              "hora": "16:30"
+            },
+            {
+              "id": 9033,
+              "grupoId": 100,
+              "localId": 3017,
+              "visitanteId": 3009,
+              "golesLocal": 1,
+              "golesVisitante": 5,
+              "fecha": "2025-03-02",
+              "hora": "19:30"
+            },
+            {
+              "id": 9034,
+              "grupoId": 100,
+              "localId": 3009,
+              "visitanteId": 3017,
+              "golesLocal": 3,
+              "golesVisitante": 5,
+              "fecha": "2025-04-24",
+              "hora": "21:00"
+            },
+            {
+              "id": 9035,
+              "grupoId": 100,
+              "localId": 3018,
+              "visitanteId": 3004,
+              "golesLocal": 1,
+              "golesVisitante": 1,
+              "fecha": "2025-04-25",
+              "hora": "21:30"
+            },
+            {
+              "id": 9036,
+              "grupoId": 100,
+              "localId": 3002,
+              "visitanteId": 3018,
+              "golesLocal": 4,
+              "golesVisitante": 0,
+              "fecha": "2025-05-11",
+              "hora": "18:00"
+            }
+          ],
+          "jugadores": [
+            {
+              "id": 100001,
+              "nombre": "Asier Martínez",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 10,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100002,
+              "nombre": "Ibai Martínez",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3001,
+              "goles": 7,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100003,
+              "nombre": "Unai Jiménez",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3001,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100004,
+              "nombre": "Iker García",
+              "edad": 26,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 7,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100005,
+              "nombre": "Ibai Hernández",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 3001,
+              "goles": 13,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100006,
+              "nombre": "Gorka Hernández",
+              "edad": 28,
+              "posicion": "Defensa",
+              "equipoId": 3001,
+              "goles": 14,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100007,
+              "nombre": "Unai Ruiz",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 6,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100008,
+              "nombre": "Aitor López",
+              "edad": 20,
+              "posicion": "Defensa",
+              "equipoId": 3001,
+              "goles": 8,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100009,
+              "nombre": "Ibai Ruiz",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 4,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100010,
+              "nombre": "Ibai Pérez",
+              "edad": 19,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 4,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100011,
+              "nombre": "Unai Hernández",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 3001,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100012,
+              "nombre": "Asier Ruiz",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3001,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100013,
+              "nombre": "Gorka López",
+              "edad": 19,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100014,
+              "nombre": "Jon Fernández",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 11,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100015,
+              "nombre": "Ander Jiménez",
+              "edad": 23,
+              "posicion": "Portero",
+              "equipoId": 3001,
+              "goles": 0,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100016,
+              "nombre": "Aitor Pérez",
+              "edad": 25,
+              "posicion": "Delantero",
+              "equipoId": 3001,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100017,
+              "nombre": "Gorka Pérez",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3001,
+              "goles": 12,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100018,
+              "nombre": "Aitor López",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 3001,
+              "goles": 5,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100019,
+              "nombre": "Unai Ruiz",
+              "edad": 34,
+              "posicion": "Delantero",
+              "equipoId": 3001,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100020,
+              "nombre": "Unai Fernández",
+              "edad": 19,
+              "posicion": "Delantero",
+              "equipoId": 3001,
+              "goles": 3,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100021,
+              "nombre": "Unai Martínez",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 3002,
+              "goles": 2,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100022,
+              "nombre": "Ander Ruiz",
+              "edad": 31,
+              "posicion": "Centrocampista",
+              "equipoId": 3002,
+              "goles": 9,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100023,
+              "nombre": "Ander Pérez",
+              "edad": 26,
+              "posicion": "Portero",
+              "equipoId": 3002,
+              "goles": 13,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100024,
+              "nombre": "Oier Jiménez",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 3002,
+              "goles": 12,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100025,
+              "nombre": "Ibai Fernández",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3002,
+              "goles": 0,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100026,
+              "nombre": "Unai Gómez",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 3002,
+              "goles": 5,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100027,
+              "nombre": "Ander Hernández",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 3002,
+              "goles": 10,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100028,
+              "nombre": "Oier Martínez",
+              "edad": 21,
+              "posicion": "Delantero",
+              "equipoId": 3002,
+              "goles": 4,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100029,
+              "nombre": "Asier Jiménez",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 3002,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100030,
+              "nombre": "Gorka Gómez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3002,
+              "goles": 8,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100031,
+              "nombre": "Mikel García",
+              "edad": 20,
+              "posicion": "Portero",
+              "equipoId": 3002,
+              "goles": 15,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100032,
+              "nombre": "Aitor Ruiz",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3002,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100033,
+              "nombre": "Jon Martínez",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 3002,
+              "goles": 10,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100034,
+              "nombre": "Unai Martínez",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3002,
+              "goles": 2,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100035,
+              "nombre": "Mikel Gómez",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 3002,
+              "goles": 14,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100036,
+              "nombre": "Aitor Pérez",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 3002,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100037,
+              "nombre": "Asier Fernández",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 3002,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100038,
+              "nombre": "Aitor Gómez",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 3002,
+              "goles": 14,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100039,
+              "nombre": "Unai Gómez",
+              "edad": 35,
+              "posicion": "Centrocampista",
+              "equipoId": 3002,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100040,
+              "nombre": "Ander Pérez",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 3002,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100041,
+              "nombre": "Ander Hernández",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 10,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100042,
+              "nombre": "Aitor Pérez",
+              "edad": 19,
+              "posicion": "Delantero",
+              "equipoId": 3003,
+              "goles": 4,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100043,
+              "nombre": "Gorka Martínez",
+              "edad": 23,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 15,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100044,
+              "nombre": "Ibai García",
+              "edad": 26,
+              "posicion": "Delantero",
+              "equipoId": 3003,
+              "goles": 12,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100045,
+              "nombre": "Asier Pérez",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 3003,
+              "goles": 12,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100046,
+              "nombre": "Jon García",
+              "edad": 18,
+              "posicion": "Portero",
+              "equipoId": 3003,
+              "goles": 3,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100047,
+              "nombre": "Ibai López",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100048,
+              "nombre": "Unai Pérez",
+              "edad": 30,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 0,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100049,
+              "nombre": "Ander Jiménez",
+              "edad": 27,
+              "posicion": "Delantero",
+              "equipoId": 3003,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100050,
+              "nombre": "Iker Gómez",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 3003,
+              "goles": 6,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100051,
+              "nombre": "Aitor Sánchez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3003,
+              "goles": 0,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100052,
+              "nombre": "Mikel Martínez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 13,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100053,
+              "nombre": "Unai Fernández",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 3003,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100054,
+              "nombre": "Iker Ruiz",
+              "edad": 18,
+              "posicion": "Defensa",
+              "equipoId": 3003,
+              "goles": 12,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100055,
+              "nombre": "Ibai Pérez",
+              "edad": 28,
+              "posicion": "Defensa",
+              "equipoId": 3003,
+              "goles": 12,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100056,
+              "nombre": "Ander Ruiz",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 13,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100057,
+              "nombre": "Jon Martínez",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 3003,
+              "goles": 10,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100058,
+              "nombre": "Aitor Sánchez",
+              "edad": 29,
+              "posicion": "Portero",
+              "equipoId": 3003,
+              "goles": 3,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100059,
+              "nombre": "Iker Ruiz",
+              "edad": 31,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100060,
+              "nombre": "Aitor Jiménez",
+              "edad": 30,
+              "posicion": "Centrocampista",
+              "equipoId": 3003,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100061,
+              "nombre": "Gorka Ruiz",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3004,
+              "goles": 11,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100062,
+              "nombre": "Iker Sánchez",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 3004,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100063,
+              "nombre": "Ibai Ruiz",
+              "edad": 24,
+              "posicion": "Portero",
+              "equipoId": 3004,
+              "goles": 7,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100064,
+              "nombre": "Mikel López",
+              "edad": 34,
+              "posicion": "Defensa",
+              "equipoId": 3004,
+              "goles": 13,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100065,
+              "nombre": "Unai Pérez",
+              "edad": 19,
+              "posicion": "Portero",
+              "equipoId": 3004,
+              "goles": 4,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100066,
+              "nombre": "Oier Pérez",
+              "edad": 30,
+              "posicion": "Portero",
+              "equipoId": 3004,
+              "goles": 15,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100067,
+              "nombre": "Mikel Fernández",
+              "edad": 23,
+              "posicion": "Delantero",
+              "equipoId": 3004,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100068,
+              "nombre": "Aitor Fernández",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 3004,
+              "goles": 13,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100069,
+              "nombre": "Asier Pérez",
+              "edad": 34,
+              "posicion": "Delantero",
+              "equipoId": 3004,
+              "goles": 10,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100070,
+              "nombre": "Gorka López",
+              "edad": 26,
+              "posicion": "Delantero",
+              "equipoId": 3004,
+              "goles": 13,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100071,
+              "nombre": "Jon López",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3004,
+              "goles": 11,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100072,
+              "nombre": "Gorka López",
+              "edad": 32,
+              "posicion": "Centrocampista",
+              "equipoId": 3004,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100073,
+              "nombre": "Ibai Pérez",
+              "edad": 32,
+              "posicion": "Portero",
+              "equipoId": 3004,
+              "goles": 5,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100074,
+              "nombre": "Mikel Martínez",
+              "edad": 25,
+              "posicion": "Delantero",
+              "equipoId": 3004,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100075,
+              "nombre": "Mikel García",
+              "edad": 30,
+              "posicion": "Delantero",
+              "equipoId": 3004,
+              "goles": 15,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100076,
+              "nombre": "Iker Pérez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3004,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100077,
+              "nombre": "Unai Fernández",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 3004,
+              "goles": 12,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100078,
+              "nombre": "Ander Pérez",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 3004,
+              "goles": 6,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100079,
+              "nombre": "Jon Ruiz",
+              "edad": 33,
+              "posicion": "Defensa",
+              "equipoId": 3004,
+              "goles": 0,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100080,
+              "nombre": "Ibai Hernández",
+              "edad": 20,
+              "posicion": "Centrocampista",
+              "equipoId": 3004,
+              "goles": 6,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100081,
+              "nombre": "Asier Jiménez",
+              "edad": 35,
+              "posicion": "Centrocampista",
+              "equipoId": 3005,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100082,
+              "nombre": "Mikel Jiménez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3005,
+              "goles": 2,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100083,
+              "nombre": "Asier Martínez",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 3005,
+              "goles": 7,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100084,
+              "nombre": "Asier Fernández",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3005,
+              "goles": 12,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100085,
+              "nombre": "Jon Pérez",
+              "edad": 21,
+              "posicion": "Delantero",
+              "equipoId": 3005,
+              "goles": 3,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100086,
+              "nombre": "Iker Jiménez",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 3005,
+              "goles": 6,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100087,
+              "nombre": "Asier Fernández",
+              "edad": 31,
+              "posicion": "Defensa",
+              "equipoId": 3005,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100088,
+              "nombre": "Iker Martínez",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3005,
+              "goles": 0,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100089,
+              "nombre": "Ander Fernández",
+              "edad": 23,
+              "posicion": "Centrocampista",
+              "equipoId": 3005,
+              "goles": 0,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100090,
+              "nombre": "Iker Hernández",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 3005,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100091,
+              "nombre": "Oier Pérez",
+              "edad": 19,
+              "posicion": "Delantero",
+              "equipoId": 3005,
+              "goles": 15,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100092,
+              "nombre": "Ander Hernández",
+              "edad": 33,
+              "posicion": "Centrocampista",
+              "equipoId": 3005,
+              "goles": 6,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100093,
+              "nombre": "Aitor Hernández",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3005,
+              "goles": 11,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100094,
+              "nombre": "Ander Ruiz",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 3005,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100095,
+              "nombre": "Iker Gómez",
+              "edad": 25,
+              "posicion": "Delantero",
+              "equipoId": 3005,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100096,
+              "nombre": "Ibai Sánchez",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 3005,
+              "goles": 12,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100097,
+              "nombre": "Aitor López",
+              "edad": 30,
+              "posicion": "Portero",
+              "equipoId": 3005,
+              "goles": 14,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100098,
+              "nombre": "Unai Gómez",
+              "edad": 24,
+              "posicion": "Portero",
+              "equipoId": 3005,
+              "goles": 9,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100099,
+              "nombre": "Ibai López",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 3005,
+              "goles": 3,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100100,
+              "nombre": "Gorka Jiménez",
+              "edad": 31,
+              "posicion": "Centrocampista",
+              "equipoId": 3005,
+              "goles": 12,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100101,
+              "nombre": "Unai Sánchez",
+              "edad": 24,
+              "posicion": "Portero",
+              "equipoId": 3006,
+              "goles": 1,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100102,
+              "nombre": "Unai Hernández",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 3006,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100103,
+              "nombre": "Aitor Fernández",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3006,
+              "goles": 11,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100104,
+              "nombre": "Aitor Jiménez",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3006,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100105,
+              "nombre": "Mikel Ruiz",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 3006,
+              "goles": 6,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100106,
+              "nombre": "Asier Gómez",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 3006,
+              "goles": 7,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100107,
+              "nombre": "Iker Jiménez",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 3006,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100108,
+              "nombre": "Ibai García",
+              "edad": 22,
+              "posicion": "Delantero",
+              "equipoId": 3006,
+              "goles": 7,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100109,
+              "nombre": "Jon Jiménez",
+              "edad": 19,
+              "posicion": "Delantero",
+              "equipoId": 3006,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100110,
+              "nombre": "Iker Gómez",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 3006,
+              "goles": 1,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100111,
+              "nombre": "Iker Sánchez",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 3006,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100112,
+              "nombre": "Aitor López",
+              "edad": 19,
+              "posicion": "Delantero",
+              "equipoId": 3006,
+              "goles": 11,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100113,
+              "nombre": "Unai Pérez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3006,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100114,
+              "nombre": "Jon Hernández",
+              "edad": 29,
+              "posicion": "Centrocampista",
+              "equipoId": 3006,
+              "goles": 5,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100115,
+              "nombre": "Ander García",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 3006,
+              "goles": 15,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100116,
+              "nombre": "Asier Hernández",
+              "edad": 32,
+              "posicion": "Defensa",
+              "equipoId": 3006,
+              "goles": 4,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100117,
+              "nombre": "Ibai Martínez",
+              "edad": 21,
+              "posicion": "Delantero",
+              "equipoId": 3006,
+              "goles": 1,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100118,
+              "nombre": "Unai Hernández",
+              "edad": 20,
+              "posicion": "Portero",
+              "equipoId": 3006,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100119,
+              "nombre": "Oier Pérez",
+              "edad": 30,
+              "posicion": "Portero",
+              "equipoId": 3006,
+              "goles": 11,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100120,
+              "nombre": "Aitor Hernández",
+              "edad": 32,
+              "posicion": "Defensa",
+              "equipoId": 3006,
+              "goles": 3,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100121,
+              "nombre": "Jon Ruiz",
+              "edad": 31,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100122,
+              "nombre": "Mikel Pérez",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100123,
+              "nombre": "Aitor Martínez",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 3007,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100124,
+              "nombre": "Ibai Pérez",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 3007,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100125,
+              "nombre": "Iker Sánchez",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 3007,
+              "goles": 6,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100126,
+              "nombre": "Asier Ruiz",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 3007,
+              "goles": 14,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100127,
+              "nombre": "Mikel Sánchez",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 3007,
+              "goles": 9,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100128,
+              "nombre": "Oier Pérez",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 0,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100129,
+              "nombre": "Oier Pérez",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3007,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100130,
+              "nombre": "Jon Hernández",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 3007,
+              "goles": 1,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100131,
+              "nombre": "Oier Pérez",
+              "edad": 21,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 4,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100132,
+              "nombre": "Mikel García",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100133,
+              "nombre": "Oier Jiménez",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 3007,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100134,
+              "nombre": "Ibai Fernández",
+              "edad": 18,
+              "posicion": "Defensa",
+              "equipoId": 3007,
+              "goles": 9,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100135,
+              "nombre": "Mikel Fernández",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 5,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100136,
+              "nombre": "Asier Jiménez",
+              "edad": 18,
+              "posicion": "Portero",
+              "equipoId": 3007,
+              "goles": 15,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100137,
+              "nombre": "Gorka Pérez",
+              "edad": 21,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 11,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100138,
+              "nombre": "Unai Jiménez",
+              "edad": 33,
+              "posicion": "Centrocampista",
+              "equipoId": 3007,
+              "goles": 14,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100139,
+              "nombre": "Ander Gómez",
+              "edad": 32,
+              "posicion": "Delantero",
+              "equipoId": 3007,
+              "goles": 13,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100140,
+              "nombre": "Ibai Gómez",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 3007,
+              "goles": 9,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100141,
+              "nombre": "Ander García",
+              "edad": 28,
+              "posicion": "Defensa",
+              "equipoId": 3008,
+              "goles": 0,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100142,
+              "nombre": "Ibai García",
+              "edad": 21,
+              "posicion": "Delantero",
+              "equipoId": 3008,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100143,
+              "nombre": "Ander Jiménez",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 3008,
+              "goles": 10,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100144,
+              "nombre": "Gorka Pérez",
+              "edad": 30,
+              "posicion": "Centrocampista",
+              "equipoId": 3008,
+              "goles": 5,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100145,
+              "nombre": "Jon Pérez",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 3008,
+              "goles": 9,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100146,
+              "nombre": "Unai Sánchez",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3008,
+              "goles": 10,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100147,
+              "nombre": "Gorka García",
+              "edad": 32,
+              "posicion": "Centrocampista",
+              "equipoId": 3008,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100148,
+              "nombre": "Aitor García",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 3008,
+              "goles": 6,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100149,
+              "nombre": "Ander Gómez",
+              "edad": 23,
+              "posicion": "Portero",
+              "equipoId": 3008,
+              "goles": 14,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100150,
+              "nombre": "Mikel Fernández",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 3008,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100151,
+              "nombre": "Unai Sánchez",
+              "edad": 24,
+              "posicion": "Portero",
+              "equipoId": 3008,
+              "goles": 11,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100152,
+              "nombre": "Mikel Pérez",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3008,
+              "goles": 1,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100153,
+              "nombre": "Gorka Gómez",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3008,
+              "goles": 6,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100154,
+              "nombre": "Oier Gómez",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 3008,
+              "goles": 9,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100155,
+              "nombre": "Ibai Martínez",
+              "edad": 21,
+              "posicion": "Centrocampista",
+              "equipoId": 3008,
+              "goles": 8,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100156,
+              "nombre": "Unai Martínez",
+              "edad": 21,
+              "posicion": "Defensa",
+              "equipoId": 3008,
+              "goles": 3,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100157,
+              "nombre": "Ander Fernández",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 3008,
+              "goles": 7,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100158,
+              "nombre": "Ander Pérez",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 3008,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100159,
+              "nombre": "Ander López",
+              "edad": 21,
+              "posicion": "Delantero",
+              "equipoId": 3008,
+              "goles": 5,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100160,
+              "nombre": "Oier López",
+              "edad": 21,
+              "posicion": "Centrocampista",
+              "equipoId": 3008,
+              "goles": 8,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100161,
+              "nombre": "Mikel García",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 3009,
+              "goles": 14,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100162,
+              "nombre": "Asier Hernández",
+              "edad": 32,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 0,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100163,
+              "nombre": "Ibai Sánchez",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 3009,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100164,
+              "nombre": "Mikel Jiménez",
+              "edad": 22,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 15,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100165,
+              "nombre": "Unai López",
+              "edad": 27,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100166,
+              "nombre": "Asier Sánchez",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 3009,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100167,
+              "nombre": "Unai Martínez",
+              "edad": 23,
+              "posicion": "Centrocampista",
+              "equipoId": 3009,
+              "goles": 12,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100168,
+              "nombre": "Asier Martínez",
+              "edad": 29,
+              "posicion": "Centrocampista",
+              "equipoId": 3009,
+              "goles": 2,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100169,
+              "nombre": "Aitor Hernández",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 3009,
+              "goles": 7,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100170,
+              "nombre": "Asier Pérez",
+              "edad": 35,
+              "posicion": "Centrocampista",
+              "equipoId": 3009,
+              "goles": 4,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100171,
+              "nombre": "Mikel Fernández",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 13,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100172,
+              "nombre": "Mikel Pérez",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3009,
+              "goles": 7,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100173,
+              "nombre": "Jon Ruiz",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 6,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100174,
+              "nombre": "Ibai Sánchez",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 3009,
+              "goles": 10,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100175,
+              "nombre": "Aitor Fernández",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 3009,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100176,
+              "nombre": "Gorka Hernández",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 8,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100177,
+              "nombre": "Ander Sánchez",
+              "edad": 26,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 4,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100178,
+              "nombre": "Gorka Sánchez",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 3009,
+              "goles": 14,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100179,
+              "nombre": "Ander Sánchez",
+              "edad": 32,
+              "posicion": "Centrocampista",
+              "equipoId": 3009,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100180,
+              "nombre": "Asier Fernández",
+              "edad": 22,
+              "posicion": "Centrocampista",
+              "equipoId": 3009,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100181,
+              "nombre": "Unai Gómez",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3010,
+              "goles": 0,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100182,
+              "nombre": "Ander Ruiz",
+              "edad": 32,
+              "posicion": "Defensa",
+              "equipoId": 3010,
+              "goles": 11,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100183,
+              "nombre": "Oier Sánchez",
+              "edad": 18,
+              "posicion": "Portero",
+              "equipoId": 3010,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100184,
+              "nombre": "Ibai Ruiz",
+              "edad": 20,
+              "posicion": "Delantero",
+              "equipoId": 3010,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100185,
+              "nombre": "Gorka Ruiz",
+              "edad": 22,
+              "posicion": "Centrocampista",
+              "equipoId": 3010,
+              "goles": 11,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100186,
+              "nombre": "Ander Gómez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3010,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100187,
+              "nombre": "Unai Gómez",
+              "edad": 20,
+              "posicion": "Portero",
+              "equipoId": 3010,
+              "goles": 8,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100188,
+              "nombre": "Mikel Sánchez",
+              "edad": 30,
+              "posicion": "Centrocampista",
+              "equipoId": 3010,
+              "goles": 11,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100189,
+              "nombre": "Gorka García",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3010,
+              "goles": 9,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100190,
+              "nombre": "Ibai Pérez",
+              "edad": 34,
+              "posicion": "Delantero",
+              "equipoId": 3010,
+              "goles": 4,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100191,
+              "nombre": "Gorka Jiménez",
+              "edad": 22,
+              "posicion": "Centrocampista",
+              "equipoId": 3010,
+              "goles": 2,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100192,
+              "nombre": "Gorka Ruiz",
+              "edad": 29,
+              "posicion": "Portero",
+              "equipoId": 3010,
+              "goles": 9,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100193,
+              "nombre": "Ibai Gómez",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3010,
+              "goles": 7,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100194,
+              "nombre": "Unai Hernández",
+              "edad": 23,
+              "posicion": "Delantero",
+              "equipoId": 3010,
+              "goles": 15,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100195,
+              "nombre": "Unai Hernández",
+              "edad": 20,
+              "posicion": "Delantero",
+              "equipoId": 3010,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100196,
+              "nombre": "Asier Fernández",
+              "edad": 21,
+              "posicion": "Centrocampista",
+              "equipoId": 3010,
+              "goles": 11,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100197,
+              "nombre": "Aitor Martínez",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3010,
+              "goles": 8,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100198,
+              "nombre": "Ander Jiménez",
+              "edad": 25,
+              "posicion": "Delantero",
+              "equipoId": 3010,
+              "goles": 6,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100199,
+              "nombre": "Oier Gómez",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3010,
+              "goles": 0,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100200,
+              "nombre": "Asier Sánchez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3010,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100201,
+              "nombre": "Gorka Ruiz",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 3011,
+              "goles": 3,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100202,
+              "nombre": "Ander Jiménez",
+              "edad": 30,
+              "posicion": "Delantero",
+              "equipoId": 3011,
+              "goles": 2,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100203,
+              "nombre": "Aitor López",
+              "edad": 23,
+              "posicion": "Delantero",
+              "equipoId": 3011,
+              "goles": 12,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100204,
+              "nombre": "Ander Ruiz",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100205,
+              "nombre": "Ander Ruiz",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 3011,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100206,
+              "nombre": "Iker Hernández",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3011,
+              "goles": 10,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100207,
+              "nombre": "Asier Pérez",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3011,
+              "goles": 14,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100208,
+              "nombre": "Ander García",
+              "edad": 30,
+              "posicion": "Portero",
+              "equipoId": 3011,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100209,
+              "nombre": "Iker Ruiz",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 3011,
+              "goles": 0,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100210,
+              "nombre": "Ander Sánchez",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100211,
+              "nombre": "Ander Fernández",
+              "edad": 34,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 7,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100212,
+              "nombre": "Oier Fernández",
+              "edad": 29,
+              "posicion": "Portero",
+              "equipoId": 3011,
+              "goles": 9,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100213,
+              "nombre": "Oier Jiménez",
+              "edad": 24,
+              "posicion": "Portero",
+              "equipoId": 3011,
+              "goles": 2,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100214,
+              "nombre": "Mikel Fernández",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 15,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100215,
+              "nombre": "Oier Martínez",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 3011,
+              "goles": 5,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100216,
+              "nombre": "Mikel Martínez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 4,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100217,
+              "nombre": "Ibai Jiménez",
+              "edad": 29,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 12,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100218,
+              "nombre": "Jon López",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 7,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100219,
+              "nombre": "Oier Hernández",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 3011,
+              "goles": 15,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100220,
+              "nombre": "Oier Fernández",
+              "edad": 35,
+              "posicion": "Centrocampista",
+              "equipoId": 3011,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100221,
+              "nombre": "Ander Sánchez",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 13,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100222,
+              "nombre": "Oier Hernández",
+              "edad": 20,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100223,
+              "nombre": "Aitor Sánchez",
+              "edad": 23,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 3,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100224,
+              "nombre": "Aitor Ruiz",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 3012,
+              "goles": 12,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100225,
+              "nombre": "Gorka Fernández",
+              "edad": 34,
+              "posicion": "Portero",
+              "equipoId": 3012,
+              "goles": 2,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100226,
+              "nombre": "Jon Pérez",
+              "edad": 31,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100227,
+              "nombre": "Unai Pérez",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 3012,
+              "goles": 13,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100228,
+              "nombre": "Ibai Ruiz",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 3012,
+              "goles": 4,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100229,
+              "nombre": "Oier Gómez",
+              "edad": 20,
+              "posicion": "Delantero",
+              "equipoId": 3012,
+              "goles": 8,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100230,
+              "nombre": "Iker Ruiz",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100231,
+              "nombre": "Ibai Jiménez",
+              "edad": 25,
+              "posicion": "Defensa",
+              "equipoId": 3012,
+              "goles": 14,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100232,
+              "nombre": "Ibai García",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 15,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100233,
+              "nombre": "Ander Jiménez",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 7,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100234,
+              "nombre": "Gorka Hernández",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 3012,
+              "goles": 5,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100235,
+              "nombre": "Gorka Fernández",
+              "edad": 21,
+              "posicion": "Delantero",
+              "equipoId": 3012,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100236,
+              "nombre": "Gorka García",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 3012,
+              "goles": 0,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100237,
+              "nombre": "Gorka Pérez",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 5,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100238,
+              "nombre": "Oier Jiménez",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 3012,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100239,
+              "nombre": "Gorka Martínez",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 3012,
+              "goles": 1,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100240,
+              "nombre": "Gorka Fernández",
+              "edad": 30,
+              "posicion": "Centrocampista",
+              "equipoId": 3012,
+              "goles": 13,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100241,
+              "nombre": "Asier López",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 3013,
+              "goles": 7,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100242,
+              "nombre": "Mikel Gómez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3013,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100243,
+              "nombre": "Aitor Martínez",
+              "edad": 32,
+              "posicion": "Delantero",
+              "equipoId": 3013,
+              "goles": 14,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100244,
+              "nombre": "Aitor Martínez",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 3013,
+              "goles": 7,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100245,
+              "nombre": "Oier Hernández",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3013,
+              "goles": 11,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100246,
+              "nombre": "Iker Sánchez",
+              "edad": 34,
+              "posicion": "Portero",
+              "equipoId": 3013,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100247,
+              "nombre": "Asier Gómez",
+              "edad": 18,
+              "posicion": "Defensa",
+              "equipoId": 3013,
+              "goles": 12,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100248,
+              "nombre": "Ander Martínez",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 3013,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100249,
+              "nombre": "Ander Gómez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3013,
+              "goles": 4,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100250,
+              "nombre": "Unai Martínez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3013,
+              "goles": 11,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100251,
+              "nombre": "Gorka Fernández",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 3013,
+              "goles": 13,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100252,
+              "nombre": "Unai Hernández",
+              "edad": 19,
+              "posicion": "Centrocampista",
+              "equipoId": 3013,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100253,
+              "nombre": "Ander López",
+              "edad": 35,
+              "posicion": "Defensa",
+              "equipoId": 3013,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100254,
+              "nombre": "Ander García",
+              "edad": 26,
+              "posicion": "Centrocampista",
+              "equipoId": 3013,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100255,
+              "nombre": "Unai Gómez",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 3013,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100256,
+              "nombre": "Jon Gómez",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3013,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100257,
+              "nombre": "Ander Jiménez",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 3013,
+              "goles": 15,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100258,
+              "nombre": "Ibai Ruiz",
+              "edad": 26,
+              "posicion": "Portero",
+              "equipoId": 3013,
+              "goles": 9,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100259,
+              "nombre": "Mikel Sánchez",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 3013,
+              "goles": 3,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100260,
+              "nombre": "Ibai Gómez",
+              "edad": 35,
+              "posicion": "Centrocampista",
+              "equipoId": 3013,
+              "goles": 6,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100261,
+              "nombre": "Unai Martínez",
+              "edad": 31,
+              "posicion": "Portero",
+              "equipoId": 3014,
+              "goles": 8,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100262,
+              "nombre": "Mikel Pérez",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 4,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100263,
+              "nombre": "Mikel Martínez",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3014,
+              "goles": 2,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100264,
+              "nombre": "Aitor Gómez",
+              "edad": 30,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100265,
+              "nombre": "Unai Gómez",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 3014,
+              "goles": 10,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100266,
+              "nombre": "Ibai Jiménez",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 2,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100267,
+              "nombre": "Aitor Ruiz",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 3014,
+              "goles": 15,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100268,
+              "nombre": "Jon Martínez",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 7,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100269,
+              "nombre": "Ibai Sánchez",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 3014,
+              "goles": 10,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100270,
+              "nombre": "Oier Fernández",
+              "edad": 18,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 3,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100271,
+              "nombre": "Ibai Jiménez",
+              "edad": 19,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100272,
+              "nombre": "Jon Martínez",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 3014,
+              "goles": 2,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100273,
+              "nombre": "Ander Jiménez",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 3014,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100274,
+              "nombre": "Unai Pérez",
+              "edad": 28,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 15,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100275,
+              "nombre": "Ander Pérez",
+              "edad": 25,
+              "posicion": "Delantero",
+              "equipoId": 3014,
+              "goles": 11,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100276,
+              "nombre": "Unai Jiménez",
+              "edad": 33,
+              "posicion": "Centrocampista",
+              "equipoId": 3014,
+              "goles": 15,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100277,
+              "nombre": "Aitor Jiménez",
+              "edad": 34,
+              "posicion": "Delantero",
+              "equipoId": 3014,
+              "goles": 8,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100278,
+              "nombre": "Oier Pérez",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3014,
+              "goles": 1,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100279,
+              "nombre": "Gorka Jiménez",
+              "edad": 29,
+              "posicion": "Centrocampista",
+              "equipoId": 3014,
+              "goles": 13,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100280,
+              "nombre": "Mikel Sánchez",
+              "edad": 34,
+              "posicion": "Defensa",
+              "equipoId": 3014,
+              "goles": 4,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100281,
+              "nombre": "Ander Pérez",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 3015,
+              "goles": 0,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100282,
+              "nombre": "Ibai Gómez",
+              "edad": 21,
+              "posicion": "Portero",
+              "equipoId": 3015,
+              "goles": 0,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100283,
+              "nombre": "Gorka Martínez",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 1,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100284,
+              "nombre": "Ander Ruiz",
+              "edad": 20,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 2,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100285,
+              "nombre": "Aitor Martínez",
+              "edad": 23,
+              "posicion": "Centrocampista",
+              "equipoId": 3015,
+              "goles": 1,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100286,
+              "nombre": "Gorka Fernández",
+              "edad": 20,
+              "posicion": "Defensa",
+              "equipoId": 3015,
+              "goles": 1,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100287,
+              "nombre": "Jon García",
+              "edad": 32,
+              "posicion": "Centrocampista",
+              "equipoId": 3015,
+              "goles": 5,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100288,
+              "nombre": "Aitor Pérez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3015,
+              "goles": 14,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100289,
+              "nombre": "Unai Martínez",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 12,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100290,
+              "nombre": "Oier Martínez",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 8,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100291,
+              "nombre": "Jon Ruiz",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 1,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100292,
+              "nombre": "Asier Hernández",
+              "edad": 26,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 12,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100293,
+              "nombre": "Unai García",
+              "edad": 28,
+              "posicion": "Centrocampista",
+              "equipoId": 3015,
+              "goles": 8,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100294,
+              "nombre": "Mikel García",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3015,
+              "goles": 10,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100295,
+              "nombre": "Aitor López",
+              "edad": 25,
+              "posicion": "Portero",
+              "equipoId": 3015,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100296,
+              "nombre": "Ander Pérez",
+              "edad": 20,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 12,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100297,
+              "nombre": "Ander Hernández",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 3015,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100298,
+              "nombre": "Iker García",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 3015,
+              "goles": 4,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100299,
+              "nombre": "Unai García",
+              "edad": 29,
+              "posicion": "Centrocampista",
+              "equipoId": 3015,
+              "goles": 10,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100300,
+              "nombre": "Unai Sánchez",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 3015,
+              "goles": 4,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100301,
+              "nombre": "Asier Gómez",
+              "edad": 32,
+              "posicion": "Portero",
+              "equipoId": 3016,
+              "goles": 6,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100302,
+              "nombre": "Aitor García",
+              "edad": 24,
+              "posicion": "Delantero",
+              "equipoId": 3016,
+              "goles": 11,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100303,
+              "nombre": "Asier Hernández",
+              "edad": 29,
+              "posicion": "Defensa",
+              "equipoId": 3016,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100304,
+              "nombre": "Oier Fernández",
+              "edad": 19,
+              "posicion": "Portero",
+              "equipoId": 3016,
+              "goles": 9,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100305,
+              "nombre": "Jon Pérez",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 3016,
+              "goles": 7,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100306,
+              "nombre": "Gorka Pérez",
+              "edad": 21,
+              "posicion": "Centrocampista",
+              "equipoId": 3016,
+              "goles": 8,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100307,
+              "nombre": "Unai Ruiz",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 3016,
+              "goles": 5,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100308,
+              "nombre": "Unai García",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 3016,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100309,
+              "nombre": "Jon Pérez",
+              "edad": 30,
+              "posicion": "Portero",
+              "equipoId": 3016,
+              "goles": 9,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100310,
+              "nombre": "Gorka Gómez",
+              "edad": 18,
+              "posicion": "Delantero",
+              "equipoId": 3016,
+              "goles": 5,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100311,
+              "nombre": "Aitor Hernández",
+              "edad": 22,
+              "posicion": "Defensa",
+              "equipoId": 3016,
+              "goles": 15,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100312,
+              "nombre": "Gorka Jiménez",
+              "edad": 24,
+              "posicion": "Defensa",
+              "equipoId": 3016,
+              "goles": 2,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100313,
+              "nombre": "Gorka Fernández",
+              "edad": 21,
+              "posicion": "Centrocampista",
+              "equipoId": 3016,
+              "goles": 5,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100314,
+              "nombre": "Mikel Hernández",
+              "edad": 35,
+              "posicion": "Defensa",
+              "equipoId": 3016,
+              "goles": 14,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100315,
+              "nombre": "Jon García",
+              "edad": 19,
+              "posicion": "Delantero",
+              "equipoId": 3016,
+              "goles": 5,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100316,
+              "nombre": "Aitor Martínez",
+              "edad": 33,
+              "posicion": "Defensa",
+              "equipoId": 3016,
+              "goles": 10,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100317,
+              "nombre": "Aitor Ruiz",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3016,
+              "goles": 11,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100318,
+              "nombre": "Mikel Jiménez",
+              "edad": 32,
+              "posicion": "Centrocampista",
+              "equipoId": 3016,
+              "goles": 1,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100319,
+              "nombre": "Jon Hernández",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3016,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100320,
+              "nombre": "Unai Ruiz",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3016,
+              "goles": 5,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100321,
+              "nombre": "Unai Jiménez",
+              "edad": 33,
+              "posicion": "Delantero",
+              "equipoId": 3017,
+              "goles": 1,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100322,
+              "nombre": "Iker Martínez",
+              "edad": 29,
+              "posicion": "Defensa",
+              "equipoId": 3017,
+              "goles": 8,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100323,
+              "nombre": "Unai Jiménez",
+              "edad": 24,
+              "posicion": "Centrocampista",
+              "equipoId": 3017,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100324,
+              "nombre": "Ander Sánchez",
+              "edad": 18,
+              "posicion": "Defensa",
+              "equipoId": 3017,
+              "goles": 12,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100325,
+              "nombre": "Ibai Gómez",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 3017,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100326,
+              "nombre": "Asier Martínez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3017,
+              "goles": 11,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100327,
+              "nombre": "Asier Gómez",
+              "edad": 22,
+              "posicion": "Centrocampista",
+              "equipoId": 3017,
+              "goles": 10,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100328,
+              "nombre": "Oier Jiménez",
+              "edad": 30,
+              "posicion": "Delantero",
+              "equipoId": 3017,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100329,
+              "nombre": "Ibai Pérez",
+              "edad": 21,
+              "posicion": "Defensa",
+              "equipoId": 3017,
+              "goles": 2,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100330,
+              "nombre": "Ibai Fernández",
+              "edad": 20,
+              "posicion": "Portero",
+              "equipoId": 3017,
+              "goles": 7,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100331,
+              "nombre": "Oier Hernández",
+              "edad": 29,
+              "posicion": "Delantero",
+              "equipoId": 3017,
+              "goles": 0,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100332,
+              "nombre": "Jon Gómez",
+              "edad": 27,
+              "posicion": "Delantero",
+              "equipoId": 3017,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100333,
+              "nombre": "Gorka Fernández",
+              "edad": 31,
+              "posicion": "Delantero",
+              "equipoId": 3017,
+              "goles": 12,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100334,
+              "nombre": "Unai García",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3017,
+              "goles": 0,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100335,
+              "nombre": "Ander Gómez",
+              "edad": 27,
+              "posicion": "Centrocampista",
+              "equipoId": 3017,
+              "goles": 7,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100336,
+              "nombre": "Mikel Fernández",
+              "edad": 20,
+              "posicion": "Defensa",
+              "equipoId": 3017,
+              "goles": 10,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100337,
+              "nombre": "Jon García",
+              "edad": 20,
+              "posicion": "Portero",
+              "equipoId": 3017,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100338,
+              "nombre": "Mikel Hernández",
+              "edad": 28,
+              "posicion": "Defensa",
+              "equipoId": 3017,
+              "goles": 6,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100339,
+              "nombre": "Unai Martínez",
+              "edad": 30,
+              "posicion": "Centrocampista",
+              "equipoId": 3017,
+              "goles": 0,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100340,
+              "nombre": "Ander Hernández",
+              "edad": 21,
+              "posicion": "Defensa",
+              "equipoId": 3017,
+              "goles": 11,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100341,
+              "nombre": "Oier Jiménez",
+              "edad": 32,
+              "posicion": "Defensa",
+              "equipoId": 3018,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100342,
+              "nombre": "Asier Jiménez",
+              "edad": 25,
+              "posicion": "Centrocampista",
+              "equipoId": 3018,
+              "goles": 8,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100343,
+              "nombre": "Ibai López",
+              "edad": 28,
+              "posicion": "Portero",
+              "equipoId": 3018,
+              "goles": 13,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100344,
+              "nombre": "Ibai Martínez",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3018,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100345,
+              "nombre": "Gorka Fernández",
+              "edad": 33,
+              "posicion": "Portero",
+              "equipoId": 3018,
+              "goles": 9,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100346,
+              "nombre": "Oier Ruiz",
+              "edad": 30,
+              "posicion": "Defensa",
+              "equipoId": 3018,
+              "goles": 0,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100347,
+              "nombre": "Mikel López",
+              "edad": 35,
+              "posicion": "Portero",
+              "equipoId": 3018,
+              "goles": 8,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100348,
+              "nombre": "Jon Ruiz",
+              "edad": 32,
+              "posicion": "Defensa",
+              "equipoId": 3018,
+              "goles": 10,
+              "tarjetasAmarillas": 5,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100349,
+              "nombre": "Mikel Hernández",
+              "edad": 27,
+              "posicion": "Portero",
+              "equipoId": 3018,
+              "goles": 14,
+              "tarjetasAmarillas": 3,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100350,
+              "nombre": "Mikel Sánchez",
+              "edad": 33,
+              "posicion": "Centrocampista",
+              "equipoId": 3018,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100351,
+              "nombre": "Unai López",
+              "edad": 28,
+              "posicion": "Delantero",
+              "equipoId": 3018,
+              "goles": 8,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100352,
+              "nombre": "Jon Martínez",
+              "edad": 20,
+              "posicion": "Centrocampista",
+              "equipoId": 3018,
+              "goles": 7,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100353,
+              "nombre": "Ibai Pérez",
+              "edad": 34,
+              "posicion": "Portero",
+              "equipoId": 3018,
+              "goles": 1,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100354,
+              "nombre": "Oier Sánchez",
+              "edad": 18,
+              "posicion": "Centrocampista",
+              "equipoId": 3018,
+              "goles": 5,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100355,
+              "nombre": "Ibai López",
+              "edad": 35,
+              "posicion": "Delantero",
+              "equipoId": 3018,
+              "goles": 9,
+              "tarjetasAmarillas": 1,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100356,
+              "nombre": "Aitor Hernández",
+              "edad": 31,
+              "posicion": "Centrocampista",
+              "equipoId": 3018,
+              "goles": 9,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100357,
+              "nombre": "Unai Pérez",
+              "edad": 23,
+              "posicion": "Defensa",
+              "equipoId": 3018,
+              "goles": 0,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 2
+            },
+            {
+              "id": 100358,
+              "nombre": "Mikel Hernández",
+              "edad": 27,
+              "posicion": "Defensa",
+              "equipoId": 3018,
+              "goles": 14,
+              "tarjetasAmarillas": 4,
+              "tarjetasRojas": 0
+            },
+            {
+              "id": 100359,
+              "nombre": "Ibai Sánchez",
+              "edad": 27,
+              "posicion": "Portero",
+              "equipoId": 3018,
+              "goles": 5,
+              "tarjetasAmarillas": 0,
+              "tarjetasRojas": 1
+            },
+            {
+              "id": 100360,
+              "nombre": "Jon Pérez",
+              "edad": 26,
+              "posicion": "Defensa",
+              "equipoId": 3018,
+              "goles": 13,
+              "tarjetasAmarillas": 2,
+              "tarjetasRojas": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
       "nombre": "Regional Preferente",
       "grupos": [
         {
@@ -1639,7 +5923,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "nombre": "Autonómica",
       "grupos": [
         {
