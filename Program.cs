@@ -2,6 +2,11 @@ using Microsoft.EntityFrameworkCore;
 using NavarraFutbolAPI.Data;
 using NavarraFutbolAPI.Models;
 using System.Text.Json;
+using System.Text.Json.Serialization;
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,9 +21,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
-        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-        options.JsonSerializerOptions.WriteIndented = true; // Optional: For pretty-printing JSON
+        // Ignora ciclos de navegación (no genera $id/$values)
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        // Mantén la capitalización de tus propiedades (opcional)
+        options.JsonSerializerOptions.PropertyNamingPolicy = null;
+        // JSON legible (opcional)
+        options.JsonSerializerOptions.WriteIndented = true;
     });
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Logging.ClearProviders();
@@ -53,7 +63,6 @@ app.Run();
 // -------------------------
 // Métodos auxiliares
 // -------------------------
-
 void SeedDatabase(AppDbContext context)
 {
     var jsonPath = Path.Combine(AppContext.BaseDirectory, "data", "BBDD.json");
@@ -96,7 +105,6 @@ void SeedDatabase(AppDbContext context)
     }
 }
 
-// Clase raíz del JSON
 public class Root
 {
     public List<Categoria> Categorias { get; set; } = new();
