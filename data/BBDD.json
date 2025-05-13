@@ -11,25 +11,25 @@
             {
               "id": 3001,
               "nombre": "U.D. Mutilvera",
-              "escudoUrl": "",
+              "escudoUrl": "https://escuela.futbolesfutbol.net/wp-content/uploads/2022/06/ESCUDO-MUTILVERA-300x300.png",
               "estadio": "Estadio U.D. Mutilvera"
             },
             {
               "id": 3002,
               "nombre": "C.D. Valle de Egüés",
-              "escudoUrl": "",
+              "escudoUrl": "https://escudosdefutbolyequipaciones.com/images_esc3/ESPA/NAVARRA/escudos_min/MIN_ESC_C.D.%20VALLE%20DE%20EG%DC%C9S.png",
               "estadio": "Estadio C.D. Valle de Egüés"
             },
             {
               "id": 3003,
               "nombre": "A.D. San Juan",
-              "escudoUrl": "",
+              "escudoUrl": "https://www.lapreferente.com/imagenes/escudos/escudo-1930.png?f=1436911200",
               "estadio": "Estadio A.D. San Juan"
             },
             {
               "id": 3004,
               "nombre": "C.D. Cortes",
-              "escudoUrl": "",
+              "escudoUrl": "https://tmssl.akamaized.net//images/wappen/big/38834.png?lm=1466948486",
               "estadio": "Estadio C.D. Cortes"
             },
             {
@@ -4325,7 +4325,7 @@
             {
               "id": 1006,
               "nombre": "C.D. Valle de Egüés 'B'",
-              "escudoUrl": "",
+              "escudoUrl": "https://escudosdefutbolyequipaciones.com/images_esc3/ESPA/NAVARRA/escudos_min/MIN_ESC_C.D.%20VALLE%20DE%20EG%DC%C9S.png",
               "estadio": "Egüés Arena"
             },
             {
@@ -4379,7 +4379,7 @@
             {
               "id": 1015,
               "nombre": "U.D. Mutilvera 'C'",
-              "escudoUrl": "",
+              "escudoUrl": "https://escuela.futbolesfutbol.net/wp-content/uploads/2022/06/ESCUDO-MUTILVERA-300x300.png",
               "estadio": "Mutilnova 3"
             },
             {
