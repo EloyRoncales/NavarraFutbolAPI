@@ -104,5 +104,50 @@ namespace NavarraFutbolAPI.Controllers
 
             return NoContent();
         }
+
+
+        [HttpGet("{categoriaId}/clasificacion")]
+        public async Task<IActionResult> GetClasificacionPorCategoria(int categoriaId)
+        {
+            var grupos = await _context.Grupos
+                .Where(g => g.CategoriaId == categoriaId)
+                .Include(g => g.Clasificaciones)
+                    .ThenInclude(c => c.Equipo)
+                .ToListAsync();
+
+            if (!grupos.Any())
+                return NotFound("No hay grupos para esta categoría.");
+
+            var resultado = grupos.Select(g => new
+            {
+                id = g.Id,
+                grupo = g.Nombre,
+                clasificaciones = g.Clasificaciones
+                    .OrderByDescending(c => c.Puntos)
+                    .Select(c => new
+                    {
+                        id = c.Id,
+                        equipoId = c.EquipoId,
+                        grupoId = c.GrupoId,
+                        puntos = c.Puntos,
+                        partidosJugados = c.PartidosJugados,
+                        partidosGanados = c.PartidosGanados,
+                        partidosEmpatados = c.PartidosEmpatados,
+                        partidosPerdidos = c.PartidosPerdidos,
+                        golesFavor = c.GolesFavor,
+                        golesContra = c.GolesContra,
+                        equipo = new
+                        {
+                            id = c.Equipo.Id,
+                            nombre = c.Equipo.Nombre,
+                            escudoUrl = c.Equipo.EscudoUrl,
+                            estadio = c.Equipo.Estadio
+                        }
+                    })
+            });
+
+            return Ok(resultado);
+        }
+
     }
 }
