@@ -77,5 +77,29 @@ namespace NavarraFutbolAPI.Controllers
 
             return NoContent();
         }
+
+        // GET: api/Jugadores/equipo/5
+        [HttpGet("equipo/{equipoId}")]
+        public async Task<ActionResult<IEnumerable<object>>> GetJugadoresPorEquipo(int equipoId)
+        {
+            var jugadores = await _context.Jugadores
+                .Where(j => j.EquipoId == equipoId)
+                .Select(j => new
+                {
+                    j.Id,
+                    j.Nombre,
+                    j.Posicion,
+                    j.Edad,
+                    j.Goles
+                })
+                .ToListAsync();
+
+            if (jugadores == null || jugadores.Count == 0)
+            {
+                return NotFound();
+            }
+
+            return Ok(jugadores);
+        }
     }
 }
