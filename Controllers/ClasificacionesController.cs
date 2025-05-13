@@ -21,8 +21,8 @@ namespace NavarraFutbolAPI.Controllers
         public async Task<ActionResult<IEnumerable<Clasificacion>>> GetClasificaciones()
         {
             return await _context.Clasificaciones
-                .Include(c => c.Equipo) // 👈 esto incluye el objeto Equipo completo
-                .Include(c => c.Grupo)  // 👈 opcional: útil si necesitas info del grupo también
+                .Include(c => c.Equipo)
+                .Include(c => c.Grupo)
                 .ToListAsync();
         }
 
