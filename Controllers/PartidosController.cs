@@ -82,23 +82,25 @@ namespace NavarraFutbolAPI.Controllers
         public async Task<ActionResult> GetPartidosByCategoria(int categoriaId)
         {
             var categoria = await _context.Categorias
-                .Where(c => c.Id == categoriaId) // Usamos Where para mayor claridad
-                .Select(c => new // Proyectamos directamente a un objeto anónimo
+                .Where(c => c.Id == categoriaId)
+                .Select(c => new
                 {
                     Categoria = c.Nombre ?? $"Categoría {c.Id}",
-                    Grupos = c.Grupos.Select(g => new // Proyectamos los Grupos
+                    Grupos = c.Grupos.Select(g => new
                     {
                         Grupo = g.Nombre ?? $"Grupo {g.Id}",
-                        Partidos = g.Partidos.Select(p => new // Proyectamos los Partidos
+                        Partidos = g.Partidos.Select(p => new
                         {
                             p.Id,
                             p.Fecha,
                             EquipoLocal = p.Local != null ? p.Local.Nombre : "Desconocido",
                             EquipoVisitante = p.Visitante != null ? p.Visitante.Nombre : "Desconocido",
                             GolesLocal = p.GolesLocal,
-                            GolesVisitante = p.GolesVisitante
-                        }).ToList() // Aseguramos que Partidos sea una lista serializable
-                    }).ToList() // Aseguramos que Grupos sea una lista serializable
+                            GolesVisitante = p.GolesVisitante,
+                            EscudoLocalUrl = p.Local != null ? p.Local.EscudoUrl : null,
+                            EscudoVisitanteUrl = p.Visitante != null ? p.Visitante.EscudoUrl : null
+                        }).ToList()
+                    }).ToList()
                 })
                 .FirstOrDefaultAsync();
 
@@ -107,8 +109,9 @@ namespace NavarraFutbolAPI.Controllers
                 return NotFound(new { message = "Categoría no encontrada." });
             }
 
-            return Ok(categoria); // Devolvemos directamente el objeto anónimo creado
+            return Ok(categoria);
         }
+
 
     }
 }
