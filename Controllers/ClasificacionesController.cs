@@ -20,11 +20,34 @@ namespace NavarraFutbolAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Clasificacion>>> GetClasificaciones()
         {
-            return await _context.Clasificaciones
-                .Include(c => c.Equipo)
+            var clasificaciones = await _context.Clasificaciones
+                .Include(c => c.Equipo)   // 👈 Esto asegura el equipo
                 .Include(c => c.Grupo)
                 .ToListAsync();
+
+            // Esto forzará la serialización evitando ciclos
+            var resultado = clasificaciones.Select(c => new {
+                c.Id,
+                c.EquipoId,
+                c.GrupoId,
+                c.Puntos,
+                c.PartidosJugados,
+                c.PartidosGanados,
+                c.PartidosEmpatados,
+                c.PartidosPerdidos,
+                c.GolesFavor,
+                c.GolesContra,
+                Equipo = c.Equipo != null ? new {
+                    c.Equipo.Id,
+                    c.Equipo.Nombre,
+                    c.Equipo.EscudoUrl,
+                    c.Equipo.Estadio
+                } : null
+            });
+
+            return Ok(resultado);
         }
+
 
 
         // GET: api/Clasificaciones/5
